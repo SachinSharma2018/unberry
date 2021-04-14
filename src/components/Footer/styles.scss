@@ -1,0 +1,42 @@
+// Styles
+@import "../../styles/variables/colors";
+@import "../../styles/variables/mixins";
+
+.footer-style {
+  background-color: $theme-secondary;
+  color: $white;
+  padding-top: 200px;
+  bottom: -140px;
+
+  nav {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      color: $white;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+  }
+
+  .title4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .copyright-section {
+    border-top: 1px solid #979797;
+    padding: 29px 0;
+    margin-top: 48px;
+  }
+  
+
+  .logo {
+    width: 120px;
+  }
+
+  .btn {
+    text-transform: uppercase;
+  }
+}

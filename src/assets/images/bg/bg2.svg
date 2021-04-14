@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="462" height="608" viewBox="0 0 462 608">
+    <defs>
+        <filter id="qdcmsd4mqb">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.847000 0 0 0 0 0.847000 0 0 0 0 0.847000 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="5wbp44e97a" d="M80 434c-26-50.667-44.333-76-55-76-10.667 0-10.667-61.667 0-185V89h73l95-89 36 33 100 170 133 286-320 119L0 565l80-131z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-1403 258) translate(1403 -258)">
+                <mask id="oo0whyzqic" fill="#fff">
+                    <use xlink:href="#5wbp44e97a"/>
+                </mask>
+                <g stroke-linecap="square" filter="url(#qdcmsd4mqb)" opacity=".2">
+                    <g mask="url(#oo0whyzqic)">
+                        <g stroke="#313131">
+                            <g>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(154)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(173)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(193)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(212)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(231)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(250)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(270)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(289)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(308)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(327)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(347)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(366)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(385)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(404)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(424)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(443)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(462)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(481)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(501)"/>
+                                <path d="M0.5 0L0.5 1991" transform="translate(-154.426 -672.09) translate(520)"/>
+                            </g>
+                            <g>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -72.5 593)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -234 754.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -158 678.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -329 849.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -110.5 631)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -281.5 802)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -196 716.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -367 887.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -129.5 650)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -300.5 821)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -215 735.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -91.5 612)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -262.5 783)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -177 697.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -348 868.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -148.5 669)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -319.5 840)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -243.5 764)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -139 659.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -310 830.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -224.5 745)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -120 640.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -291 811.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -205.5 726)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -82 602.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -253 773.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -167.5 688)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -338.5 859)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -101 621.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -272 792.5)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -186.5 707)"/>
+                                <path d="M0.5 0L0.5 520" transform="translate(-154.426 -672.09) translate(0 12) rotate(90 -357.5 878)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

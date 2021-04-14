@@ -1,0 +1,17 @@
+@import "../../styles/variables/colors";
+@import "../../styles/variables/mixins";
+
+.home-page-container {
+  overflow: hidden;
+  
+  .top-header-style {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    padding: 30px;
+  }
+}

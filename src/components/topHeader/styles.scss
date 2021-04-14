@@ -1,0 +1,14 @@
+// Styles
+@import "../../styles/variables/colors";
+@import "../../styles/variables/mixins";
+
+.top-header-style {
+
+  .logo {
+    width: 120px;
+  }
+
+  .btn {
+    text-transform: uppercase;
+  }
+}

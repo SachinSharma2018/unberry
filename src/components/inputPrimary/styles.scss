@@ -1,0 +1,22 @@
+// Styles
+@import "../../styles/variables/colors";
+@import "../../styles/variables/mixins";
+
+.input-box-style {
+  width: 100%;
+
+  .form-input {
+    min-height: 38px;
+    border-radius: 7px;
+    background-color: #2F2F2F;
+    border: none;
+    width: 100%;
+    padding: 0 20px;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+}

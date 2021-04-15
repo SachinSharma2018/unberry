@@ -8,7 +8,7 @@ function HeroSection() {
     <section className="hero-section">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-sm-4">
+          <div className="col-sm-5">
             <h1 className="title1">Using games to amplify your hiring</h1>
             <p className="description o-7 mt--15">
               Combining game technology and neuroscience to surface precise

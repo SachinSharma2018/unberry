@@ -1,0 +1,85 @@
+// Styles
+@import "../../../styles/variables/colors";
+@import "../../../styles/variables/mixins";
+
+.enter-unberry-style {
+  background-color: $theme-secondary;
+  padding: 80px 0 150px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 40px;
+    left: -160px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url("../../../assets/images/bg/bg3.svg") no-repeat left;
+    background-size: 25%;
+  }
+
+  &::after {
+    position: absolute;
+    top: -100px;
+    right: -200px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url("../../../assets/images/bg/bg1.svg") no-repeat top right;
+    background-size: 25%;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .description {
+    color: $white;
+    font-size: 18px;
+  }
+
+  .title2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: $white;
+  }
+
+  .timeline-style {
+    .description {
+      max-width: 55%;
+      margin: 20px 0;
+    }
+
+    .image {
+      width: 400px;
+    }
+
+    .row {
+      margin-top: 100px;
+    }
+
+    .btn-link {
+      text-transform: uppercase;
+      font-size: 14px;
+      color: $white;
+      font-weight: 600;
+      padding: 0;
+    }
+  }
+
+  .title4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: $white;
+    max-width: 40%;
+  }
+
+  .info-sec {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .shape-img-style {
+    margin-right: 25px;
+  }
+}

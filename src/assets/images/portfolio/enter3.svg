@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="557px" height="430px" viewBox="0 0 557 430" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Editted" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unberry-Landing-Copy-1" transform="translate(-855.000000, -4629.000000)">
+            <g id="Group-22" transform="translate(855.000000, 4627.000000)">
+                <g id="Group-20" transform="translate(74.000000, 23.000000)">
+                    <circle id="Oval" stroke="#383838" cx="194" cy="194" r="31.3758542"></circle>
+                    <circle id="Oval" stroke="#383838" cx="193.558087" cy="194.441913" r="63.6355353"></circle>
+                    <circle id="Oval" stroke="#383838" cx="193.558087" cy="194.441913" r="96.3371298"></circle>
+                    <circle id="Oval" stroke="#383838" cx="194" cy="194" r="128.596811"></circle>
+                    <circle id="Oval" stroke="#383838" cx="194" cy="194" r="161.298405"></circle>
+                    <circle id="Oval" stroke="#383838" cx="193.558087" cy="194.441913" r="193.558087"></circle>
+                    <line x1="194" y1="0" x2="194" y2="388" id="Path-7" stroke="#383838"></line>
+                    <line x1="193.558087" y1="8.52651283e-14" x2="193.558087" y2="388" id="Path-7" stroke="#383838" transform="translate(193.558087, 194.000000) rotate(-45.000000) translate(-193.558087, -194.000000) "></line>
+                    <line x1="193.558087" y1="1.13686838e-13" x2="193.558087" y2="388" id="Path-7" stroke="#383838" transform="translate(193.558087, 194.000000) rotate(45.000000) translate(-193.558087, -194.000000) "></line>
+                    <line x1="194" y1="0" x2="194" y2="388" id="Path-7" stroke="#383838" transform="translate(194.000000, 194.000000) rotate(90.000000) translate(-194.000000, -194.000000) "></line>
+                    <path d="M155.569077,45.4013602 L113.529359,94.3258488 C113.148496,94.7690853 112.775131,95.2187106 112.409425,95.6745332 L76.3043623,140.676517 C57.6455389,163.933202 50.3379151,194.302951 56.3747569,223.501951 L66.7196683,273.538226 C69.6143906,287.53942 78.146206,299.731077 90.3089405,307.246446 L138.654212,337.119048 C172.213281,357.855237 214.827068,356.924398 247.448653,334.742586 L295.406781,302.13233 C301.853497,297.748734 307.232078,291.971712 311.14458,285.228688 L352.34697,214.218188 C364.839612,192.687673 360.321693,165.323549 341.57118,148.951394 L281.984942,96.9232113 C280.510661,95.6359308 279.110231,94.2664428 277.790339,92.8212846 L233.404742,44.2232199 C214.03733,23.0177201 181.146487,21.5276557 159.940987,40.8950679 C158.394248,42.3077354 156.934285,43.8125751 155.569077,45.4013602 Z" id="Path-8" stroke="#9CD27F" fill-opacity="0.107844426" fill="#E6F16A" stroke-linecap="round"></path>
+                    <path d="M292.023578,262.933526 C288.029224,269.803664 282.541057,275.68762 275.965239,280.149938 L241.817388,303.322505 C228.282678,312.507094 212.682798,317.292163 196.985958,317.634754 C181.289119,317.977345 165.495321,313.877459 151.572774,305.292138 L119.130948,285.286928 C106.719468,277.633404 98.0094795,265.204478 95.0514592,250.926124 L88.7795699,220.651736 C83.3703705,194.54155 89.9144135,167.380273 106.6214,146.598602 L132.160621,114.830593 C132.533959,114.366202 132.915101,113.90814 133.303885,113.456602 L164.640158,77.0623642 C165.788068,75.7291712 167.01418,74.4653625 168.312011,73.2776193 C177.359406,64.9976664 188.9064,61.1687575 200.261532,61.6716857 C211.616665,62.1746139 222.779937,67.0093791 231.05989,76.0567745 L263.891255,111.931175 C265.187135,113.347166 266.561921,114.688869 268.009051,115.94988 L307.668423,150.508574 C317.246538,158.854827 323.189247,170.012693 325.141036,181.82973 C327.092824,193.646766 325.053693,206.122972 318.668127,217.105904 L292.023578,262.933526 Z" id="Path-8" stroke="#B160F1" stroke-width="2" fill="#A052EE" opacity="0.5"></path>
+                </g>
+                <text id="Lateral-Thinking" opacity="0.300000012" font-family="Menlo-Regular, Menlo" font-size="13" font-weight="normal" letter-spacing="-0.0722222248" fill="#FFFFFF">
+                    <tspan x="213" y="12">Lateral Thinking</tspan>
+                </text>
+                <text id="Responsiveness-Copy" opacity="0.300000012" font-family="Menlo-Regular, Menlo" font-size="13" font-weight="normal" letter-spacing="-0.0722222248" fill="#FFFFFF">
+                    <tspan x="26" y="75">Responsiveness</tspan>
+                </text>
+                <text id="Focus" opacity="0.300000012" font-family="Menlo-Regular, Menlo" font-size="13" font-weight="normal" letter-spacing="-0.0722222248" fill="#FFFFFF">
+                    <tspan x="410" y="70">Focus</tspan>
+                </text>
+                <text id="Attention" opacity="0.300000012" font-family="Menlo-Regular, Menlo" font-size="13" font-weight="normal" letter-spacing="-0.0722222248" fill="#FFFFFF">
+                    <tspan x="471" y="222">Attention</tspan>
+                </text>
+                <text id="Composure" opacity="0.300000012" font-family="Menlo-Regular, Menlo" font-size="13" font-weight="normal" letter-spacing="-0.0722222248" fill="#FFFFFF">
+                    <tspan x="0" y="222">Composure</tspan>
+                </text>
+                <text id="Perseverance" opacity="0.300000012" font-family="Menlo-Regular, Menlo" font-size="13" font-weight="normal" letter-spacing="-0.0722222248" fill="#FFFFFF">
+                    <tspan x="226" y="431">Perseverance</tspan>
+                </text>
+                <text id="Expressiveness" opacity="0.300000012" font-family="Menlo-Regular, Menlo" font-size="13" font-weight="normal" letter-spacing="-0.0722222248" fill="#FFFFFF">
+                    <tspan x="31" y="369">Expressiveness</tspan>
+                </text>
+                <text id="Ambiguity-Tolerance" opacity="0.300000012" font-family="Menlo-Regular, Menlo" font-size="13" font-weight="normal" letter-spacing="-0.0722222248" fill="#FFFFFF">
+                    <tspan x="410" y="371">Ambiguity Tolerance</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

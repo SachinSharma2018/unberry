@@ -1,7 +1,13 @@
 // Custom Components
-import Footer from "../../components/Footer";
+import Footer from "../../components/footer";
+import EnterUnberry from "../../components/home/enterUnberry";
 import HeroSection from "../../components/home/heroSection";
 import HiringBox from "../../components/home/hiringBox";
+import HoldupSection from "../../components/home/holdupSection";
+import InsightsSection from "../../components/home/insightsSection";
+import RapidlyEvolving from "../../components/home/rapidlyEvolving";
+import TalentWorkforce from "../../components/home/talentWorkforce";
+import UnberryWorks from "../../components/home/unberryWorks";
 import TopHeader from "../../components/topHeader";
 
 // styles
@@ -11,9 +17,23 @@ function Home() {
   return (
     <div className="home-page-container">
       <TopHeader />
+
       <HeroSection />
 
+      <RapidlyEvolving />
+
+      <HoldupSection />
+
+      <EnterUnberry />
+
+      <UnberryWorks />
+
+      <TalentWorkforce />
+
+      <InsightsSection/>
+
       <HiringBox />
+
       <Footer />
     </div>
   );

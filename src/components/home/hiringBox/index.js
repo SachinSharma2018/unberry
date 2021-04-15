@@ -1,5 +1,3 @@
-import downArrow from "../../../assets/images/down-arrow.svg";
-import heroImage from "../../../assets/images/hero-image.svg";
 import InputPrimary from "../../inputPrimary";
 
 import "./styles.scss";
@@ -19,6 +17,9 @@ function HiringBox() {
           <button className="started-btn">Get started</button>
         </div>
       </div>
+
+      <div className="shape1" />
+      <div className="shape2" />
     </section>
   );
 }

@@ -9,7 +9,44 @@
   z-index: 1;
   background-color: $white;
   width: 100%;
-  height: 500px;
+  height: 400px;
+  background-image: url('../../../assets/images/line-pattern.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 0px 50px 50px;
+
+  &::before {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url("../../../assets/images/bg/bg4.svg") no-repeat;
+    background-size: contain;
+  }
+
+  .shape1 {
+    position: absolute;
+    bottom: -230px;
+    left: 240px;
+    width: 180px;
+    height: 220px;
+    background: url('../../../assets/images/shapes/f1.svg');
+    background-repeat: no-repeat;
+    transform: scale(0.7);
+  }
+  .shape2 {
+    position: absolute;
+    bottom: -210px;
+    right: 320px;
+    width: 210px;
+    height: 150px;
+    background: url('../../../assets/images/shapes/f2.svg');
+    background-repeat: no-repeat;
+    transform: scale(0.7);
+  }
 
   .container {
     position: relative;
@@ -42,13 +79,12 @@
 
   .content-box {
     background: $theme-secondary;
-    height: 350px;
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
     border-radius: 12px;
     border: solid 1px $white;
     text-align: center;
-    padding: 0 100px;
+    padding: 60px 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,16 +92,17 @@
     position: absolute;
     left: 0;
     right: 0;
+    bottom: -130px;
 
     .title2 {
       color: $white;
-      max-width: 70%;
+      max-width: 50%;
       margin: 0 auto;
     }
   
     .description {
       color: $white;
-      max-width: 85%;
+      max-width: 70%;
     }
 
     .started-btn {
@@ -84,7 +121,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 0 20px;
+      width: 60%;
+      margin-top: 10px;
     }
   }
 }

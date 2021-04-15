@@ -1,0 +1,42 @@
+// Styles
+@import "../../../styles/variables/colors";
+@import "../../../styles/variables/mixins";
+
+.rapidly-evolving-style {
+  background-color: $white;
+  padding: 200px 0 0px;
+
+  .img-style {
+    width: 500px;
+    position: relative;
+    top: -50px;
+    left: -100px;
+  }
+
+  .title2 {
+    max-width: 70%;
+    margin-bottom: 37px;
+  }
+
+  .title4 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .description {
+    font-size: 16px;
+    max-width: 65%;
+    margin-top: 10px;
+  }
+
+  .timeline-item {
+    margin-top:30px;
+    display: flex;
+    align-items: flex-start;
+    opacity: 0.5;
+
+    &.timeline-active {
+      opacity: 1;
+    }
+  } 
+}

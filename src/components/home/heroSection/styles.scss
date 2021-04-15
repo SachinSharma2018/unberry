@@ -7,7 +7,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  height: 550px;
+  height: 600px;
 
   &::before {
     position: absolute;
@@ -66,6 +66,7 @@
     position: absolute;
     right: 30px;
     width: 650px;
-    margin-top: 140px;
+    margin-top: 100px;
+    z-index: 2;
   }
 }

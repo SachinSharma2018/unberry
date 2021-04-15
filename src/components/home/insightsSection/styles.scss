@@ -1,0 +1,70 @@
+// Styles
+@import "../../../styles/variables/colors";
+@import "../../../styles/variables/mixins";
+
+.insights-section-style {
+  background-color: $white;
+  padding: 50px 0;
+
+  .image-style {
+    width: 100%;
+  }
+
+  .title2 {
+    margin-bottom: 37px;
+    text-align: center;
+  }
+
+  .info {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  .title4 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .description {
+    font-size: 16px;
+    max-width: 100%;
+    margin: 10px 0 20px;
+  }
+
+  .theme-purple {
+    color: #7e5fff;
+  }
+
+  .btn-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: $black;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    &:after {
+      display: block;
+      width: 48px;
+      height: 1px;
+      content: '';
+      margin-left: 20px;
+      transition: all 0.5s ease-in-out;
+      background-color: #7e5fff;
+    }
+
+    &:hover {
+
+      &:after {
+        width: 60%;
+      }
+    }
+  }
+
+  .scroll-section {
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="59px" viewBox="0 0 45 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="17.9014085 7.82190778e-14 23.0985915 5.21448468 23.0985915 22.0167131 5.1971831 22.0167131 0 17.3816156 0 6.47751738e-14"></polygon>
+        <polygon id="path-3" points="17.9014085 7.82190778e-14 23.0985915 5.21448468 23.0985915 22.0167131 5.1971831 22.0167131 0 17.3816156 0 6.47751738e-14"></polygon>
+        <polygon id="path-5" points="17.9014085 7.82190778e-14 23.0985915 5.21448468 23.0985915 22.0167131 5.1971831 22.0167131 0 17.3816156 0 6.47751738e-14"></polygon>
+        <polygon id="path-7" points="17.9014085 7.81597009e-14 23.0985915 5.21052632 23.0985915 22 5.1971831 22 0 17.3684211 0 6.47260023e-14"></polygon>
+        <polygon id="path-9" points="17.9014085 7.81597009e-14 23.0985915 5.21052632 23.0985915 22 5.1971831 22 0 17.3684211 0 6.47260023e-14"></polygon>
+    </defs>
+    <g id="Editted" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unberry-Landing-Copy-1" transform="translate(-234.000000, -4090.000000)">
+            <g id="Group-18" transform="translate(236.000000, 4092.000000)">
+                <g id="Group-9-Copy-2" transform="translate(0.000000, 16.000000)">
+                    <g id="Path-Copy-14" transform="translate(17.901408, 16.983287)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <path stroke="#080303" stroke-width="1.6" d="M23.8985915,4.88389231 L23.8985915,22.8167131 L4.89226772,22.8167131 L-0.8,17.7400754 L-0.8,-0.8 L18.2335583,-0.8 L23.8985915,4.88389231 Z"></path>
+                        <path d="M27.4957746,10.7595617 L27.4957746,26.4311978 L10.6992816,26.4311978 L5.9971831,22.2376405 L5.9971831,6.01448468 L22.7664417,6.01448468 L27.4957746,10.7595617 Z" id="Path-Copy-3" stroke="#080303" stroke-width="1.6" fill="#795BCB" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Path-Copy-12" transform="translate(17.901408, -0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <path stroke="#080303" stroke-width="1.6" d="M23.8985915,4.88389231 L23.8985915,22.8167131 L4.89226772,22.8167131 L-0.8,17.7400754 L-0.8,-0.8 L18.2335583,-0.8 L23.8985915,4.88389231 Z"></path>
+                        <path d="M27.4957746,10.7595617 L27.4957746,26.4311978 L10.6992816,26.4311978 L5.9971831,22.2376405 L5.9971831,6.01448468 L22.7664417,6.01448468 L27.4957746,10.7595617 Z" id="Path-Copy-3" stroke="#080303" stroke-width="1.6" fill="#795BCB" mask="url(#mask-4)"></path>
+                    </g>
+                    <g id="Path-Copy-13" transform="translate(0.000000, -0.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <path stroke="#080303" stroke-width="1.6" d="M23.8985915,4.88389231 L23.8985915,22.8167131 L4.89226772,22.8167131 L-0.8,17.7400754 L-0.8,-0.8 L18.2335583,-0.8 L23.8985915,4.88389231 Z"></path>
+                        <path d="M27.4957746,10.7595617 L27.4957746,26.4311978 L10.6992816,26.4311978 L5.9971831,22.2376405 L5.9971831,6.01448468 L22.7664417,6.01448468 L27.4957746,10.7595617 Z" id="Path-Copy-3" stroke="#080303" stroke-width="1.6" fill="#795BCB" mask="url(#mask-6)"></path>
+                    </g>
+                </g>
+                <g id="Group-9-Copy">
+                    <g id="Path-Copy-12" transform="translate(17.901408, -0.000000)">
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <path stroke="#080303" stroke-width="1.6" d="M23.8985915,4.87975611 L23.8985915,22.8 L4.89244051,22.8 L-0.8,17.727062 L-0.8,-0.8 L18.2333803,-0.8 L23.8985915,4.87975611 Z"></path>
+                        <path d="M27.4957746,10.7518228 L27.4957746,26.4105263 L10.6991088,26.4105263 L5.9971831,22.2203064 L5.9971831,6.01052632 L22.7666197,6.01052632 L27.4957746,10.7518228 Z" id="Path-Copy-3" stroke="#080303" stroke-width="1.6" fill="#E6F16A" mask="url(#mask-8)"></path>
+                    </g>
+                    <g id="Path-Copy-13" transform="translate(0.000000, -0.000000)">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <path stroke="#080303" stroke-width="1.6" d="M23.8985915,4.87975611 L23.8985915,22.8 L4.89244051,22.8 L-0.8,17.727062 L-0.8,-0.8 L18.2333803,-0.8 L23.8985915,4.87975611 Z"></path>
+                        <path d="M27.4957746,10.7518228 L27.4957746,26.4105263 L10.6991088,26.4105263 L5.9971831,22.2203064 L5.9971831,6.01052632 L22.7666197,6.01052632 L27.4957746,10.7518228 Z" id="Path-Copy-3" stroke="#080303" stroke-width="1.6" fill="#E6F16A" mask="url(#mask-10)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

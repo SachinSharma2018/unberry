@@ -12,7 +12,7 @@
 
   .title2 {
     margin-bottom: 37px;
-    text-align: center;
+    font-weight: 600;
   }
 
   .info {
@@ -23,6 +23,7 @@
   .title4 {
     font-size: 18px;
     font-weight: 600;
+    max-width: 90%;
   }
 
   .description {
@@ -48,14 +49,13 @@
       display: block;
       width: 48px;
       height: 1px;
-      content: '';
+      content: "";
       margin-left: 20px;
       transition: all 0.5s ease-in-out;
       background-color: #7e5fff;
     }
 
     &:hover {
-
       &:after {
         width: 60%;
       }
@@ -66,5 +66,10 @@
     img {
       width: 100%;
     }
+  }
+
+  .image-card {
+    width: 33%;
+    margin-right: 50px;
   }
 }

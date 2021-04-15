@@ -1,5 +1,5 @@
 // Custom Components
-import Footer from "../../components/footer";
+import FooterPrimary from "../../components/footerPrimary";
 import EnterUnberry from "../../components/home/enterUnberry";
 import HeroSection from "../../components/home/heroSection";
 import HiringBox from "../../components/home/hiringBox";
@@ -34,7 +34,7 @@ function Home() {
 
       <HiringBox />
 
-      <Footer />
+      <FooterPrimary />
     </div>
   );
 }

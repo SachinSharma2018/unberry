@@ -1,11 +1,10 @@
 import {Link} from "react-router-dom";
 import logoImage from "../../assets/images/logo.svg";
-import ButtonOutline from "../buttons/buttonOutline";
 
 // styles
 import "./styles.scss";
 
-function Footer() {
+function FooterPrimary() {
   return (
     <section className="footer-style">
       <div className="container">
@@ -54,4 +53,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterPrimary;

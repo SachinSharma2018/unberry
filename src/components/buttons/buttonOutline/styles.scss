@@ -5,10 +5,13 @@
   .btn {
     border-radius: 50px;
     border: 0.5px solid $white;
-    min-width: 70.5px;
-    font-size: 12px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 8px 15px;
     color: $white;
-    background: transparent;
+    background: rgba($black, 0.1);
+    transition: all 0.5s ease-in-out;
+    font-weight: 600;
 
     &:focus {
       outline: none;
@@ -17,6 +20,9 @@
 
     &:hover {
       opacity: 0.8;
+      background: rgba($white, 1);
+      color: $black;
+      font-weight: 600;
     }
   }
 }

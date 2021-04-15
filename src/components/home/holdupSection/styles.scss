@@ -6,10 +6,6 @@
   background-color: $white;
   padding: 50px 0 150px;
 
-  .img-style {
-    width: 400px;
-  }
-
   .title2 {
     margin-bottom: 37px;
     text-align: center;
@@ -26,9 +22,48 @@
   }
 
   .scroll-section {
-    
     img {
       width: 100%;
+    }
+  }
+
+  .content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+
+    .img-style {
+      width: 100%;
+      position: absolute;
+    }
+
+    &:after {
+      position: absolute;
+      top: 70px;
+      left: 390px;
+      content: "";
+      width: 40%;
+      height: 100%;
+      background-image: url("../../../assets/images/shapes/g2.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      z-index: 3;
+    }
+
+    .science-box {
+      padding: 80px 150px;
+      background: $theme-secondary;
+      color: $theme-primary;
+      font-size: 20px;
+      font-weight: 600;
+      max-width: 60%;
+      border-radius: 10px;
+      text-align: center;
+      position: relative;
+      z-index: 2;
     }
   }
 }

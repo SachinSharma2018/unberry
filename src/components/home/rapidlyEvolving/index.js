@@ -1,6 +1,6 @@
 import downArrow from "../../../assets/images/down-arrow.svg";
 import imgTest from "../../../assets/images/test2.png";
-import LineBar from "../../lineBar";
+import VerticalProgress from "../../verticalProgress";
 
 import "./styles.scss";
 
@@ -17,7 +17,7 @@ function RapidlyEvolving() {
           <div className="col-sm-6">
             <div className="timeline-style">
               <div className="timeline-item timeline-active">
-              <LineBar number="70"/>
+              <VerticalProgress number="70"/>
                 <div className="content">
                   <h4 className="title4"> Focus on potential</h4>
                   <div className="description o-7">
@@ -28,7 +28,7 @@ function RapidlyEvolving() {
               </div>
 
               <div className="timeline-item">
-              <LineBar number="0"/>
+              <VerticalProgress number="0"/>
                 <div className="content">
                   <h4 className="title4"> Avoid bad hires</h4>
                   <div className="description o-7">
@@ -39,7 +39,7 @@ function RapidlyEvolving() {
               </div>
 
               <div className="timeline-item">
-              <LineBar number="0"/>
+              <VerticalProgress number="0"/>
                 <div className="content">
                   <h4 className="title4"> Identify your best-fit</h4>
                   <div className="description o-7">

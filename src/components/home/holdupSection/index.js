@@ -1,5 +1,6 @@
-import test3 from "../../../assets/images/test3.png";
+import test3 from "../../../assets/images/big-grid.svg";
 import shape1 from "../../../assets/images/shapes/g1.svg";
+import HorizontalProgress from "../../horizontalProgress";
 
 import "./styles.scss";
 
@@ -17,14 +18,18 @@ function HoldupSection() {
         <img src={test3} />
       </div>
 
-      <div className="content-section">
+      <div>
+        <HorizontalProgress width="70" />
+      </div>
+
+      {/* <div className="content-section">
         <div className="science-box">
           Science-backed games can present multi-dimensional stimuli to reveal a
           lot about players cognition and behaviour.
         </div>
 
-        <img src={shape1} className="img-style"/>
-      </div>
+        <img src={shape1} className="img-style" />
+      </div> */}
     </section>
   );
 }

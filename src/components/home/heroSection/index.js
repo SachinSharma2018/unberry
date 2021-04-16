@@ -1,5 +1,5 @@
 import downArrow from "../../../assets/images/down-arrow.svg";
-import heroImage from "../../../assets/images/hero-image.svg";
+import heroImage from "../../../assets/images/hero-image.png";
 
 import "./styles.scss";
 

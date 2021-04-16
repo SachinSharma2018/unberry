@@ -1,0 +1,14 @@
+// Styles
+@import "../../styles/variables/colors";
+@import "../../styles/variables/mixins";
+
+.progress-bar-horizontal {
+  height: 4px;
+  background: #D7E4E3;
+  border-radius: 4px;
+
+  .progress-bar {
+    background: $theme-purple;
+    transition: height 0.6s ease;
+  }
+}

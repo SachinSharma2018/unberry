@@ -1,13 +1,13 @@
 // styles
 import "./styles.scss";
 
-function LineBar(props) {
+function VerticalProgress(props) {
   return (
     <div class="progress progress-bar-vertical">
       <div
         class="progress-bar"
         role="progressbar"
-        aria-valuenow="30"
+        aria-valuenow={props.number}
         aria-valuemin="0"
         aria-valuemax="100"
         style={{height: `${props.number}%`}}
@@ -16,4 +16,4 @@ function LineBar(props) {
   );
 }
 
-export default LineBar;
+export default VerticalProgress;

@@ -17,13 +17,13 @@ function TalentWorkforce() {
               Your Workforce
             </h4>
 
-            <img src={shape0} className="img1"/>
+            <img alt="" src={shape0} className="img1"/>
           </div>
 
           <div className="col-sm-8">
             <div className="gird-section">
             <div className="card-box">
-              <img src={shape1} />
+              <img alt="" src={shape1} />
               <div className="info">
                 <h4 className="title4">A Much More Precise Signal</h4>
                 <p className="description">
@@ -35,7 +35,7 @@ function TalentWorkforce() {
             </div>
 
             <div className="card-box">
-              <img src={shape2} />
+              <img alt="" src={shape2} />
               <div className="info">
                 <h4 className="title4">Fair and Unbiased Process</h4>
                 <p className="description">
@@ -47,7 +47,7 @@ function TalentWorkforce() {
             </div>
 
             <div className="card-box">
-              <img src={shape3} />
+              <img alt="" src={shape3} />
               <div className="info">
                 <h4 className="title4">Access to Hidden Talent Pools</h4>
                 <p className="description">
@@ -59,7 +59,7 @@ function TalentWorkforce() {
             </div>
 
             <div className="card-box">
-              <img src={shape4} />
+              <img alt="" src={shape4} />
               <div className="info">
                 <h4 className="title4">Long Lasting Brand Impact</h4>
                 <p className="description">

@@ -30,42 +30,60 @@ function HoldupSection() {
 
   return (
     <Controller>
-      <Scene duration={700} pin triggerHook="onLeave">
-        <section className="holdup-section-style" id="myDIV">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-                <h4 className="title2">Hold up one second..</h4>
-              </div>
-            </div>
-          </div>
+      <section className="holdup-section-style" id="myDIV">
+        <div id="trigger" />
 
-          {!(width >= 100) ? (
-            <div>
-              <div className="scroll-section">
-                <img src={grid1} />
+        {!(width >= 100) ? (
+          <div className="position-relative">
+            <Scene duration={500} pin triggerHook="onLeave">
+              <div className="scroll-section scroll-first">
+                <img alt="" src={grid1} />
               </div>
-              <div>
-                <HorizontalProgress width={width} />
+            </Scene>
+
+            <Scene
+              duration={1000}
+              classToggle="section-show"
+              triggerElement="#trigger"
+              // indicators={true}
+              pin
+              triggerHook="onLeave"
+            >
+              <div className="action-section">
+                <div className="container heading-section">
+                  <div className="row">
+                    <div className="col-sm-12">
+                      <h4 className="title2">Hold up one second..</h4>
+                    </div>
+                  </div>
+                </div>
+                <div className="progress-bar-style">
+                  <HorizontalProgress width={width} />
+                </div>
               </div>
-            </div>
-          ) : (
+            </Scene>
+          </div>
+        ) : (
+          <section className="scroll-second">
+            <div className="space"/>
             <div className="animate__animated animate__fadeIn animate__fast">
               <div className="scroll-section">
-                <img src={grid2} />
+                <img alt="" src={grid2} />
               </div>
+            </div>
+            <div className="animate__animated animate__fadeIn animate__delay-1s">
               <div className="content-section">
                 <div className="science-box">
                   Science-backed games can present multi-dimensional stimuli to
                   reveal a lot about players cognition and behaviour.
                 </div>
 
-                <img src={shape1} className="img-style" />
+                <img alt="" src={shape1} className="img-style" />
               </div>
             </div>
-          )}
-        </section>
-      </Scene>
+          </section>
+        )}
+      </section>
     </Controller>
   );
 }

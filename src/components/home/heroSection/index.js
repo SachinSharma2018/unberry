@@ -18,12 +18,12 @@ function HeroSection() {
 
             <button className="arrow-icon-btn">
               <span> How it works</span>
-              <img src={downArrow} />
+              <img alt="" src={downArrow} />
             </button>
           </div>
         </div>
       </div>
-      <img src={heroImage} className="hero-image" />
+      <img alt="" src={heroImage} className="hero-image" />
     </section>
   );
 }

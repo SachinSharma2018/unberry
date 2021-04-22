@@ -1,5 +1,4 @@
 import {Link} from "react-router-dom";
-import test3 from "../../../assets/images/test3.png";
 import logo from "../../../assets/images/logo.svg";
 
 import enter1 from "../../../assets/images/portfolio/enter1.svg";
@@ -19,7 +18,7 @@ function EnterUnberry() {
         <div className="row">
           <div className="col-sm-12 text-center">
             <h4 className="title2">
-              Enter <img src={logo} className="logo" />
+              Enter <img alt="" src={logo} className="logo" />
             </h4>
             <p className="description">
               Revolutionising Candidate Assessment Through Gameplay
@@ -31,7 +30,7 @@ function EnterUnberry() {
           <div className="row mt--80">
             <div className="col-sm-6">
               <div className="info-sec">
-                <img src={shape1} className="shape-img-style" />
+                <img alt="" src={shape1} className="shape-img-style" />
                 <div className="info">
                   <h4 className="title4">
                     Captivating And Challenging Mini Games
@@ -45,14 +44,14 @@ function EnterUnberry() {
               </div>
             </div>
             <div className="col-sm-6">
-              <img src={enter1} className="image" />
+              <img alt="" src={enter1} className="image" />
             </div>
           </div>
 
           <div className="row">
             <div className="col-sm-6">
               <div className="info-sec">
-                <img src={shape2} className="shape-img-style"  />
+                <img alt="" src={shape2} className="shape-img-style"  />
                 <div className="info">
                   <h4 className="title4">Gathering Thousands Of Data Points</h4>
                   <p className="description o-7">
@@ -64,14 +63,14 @@ function EnterUnberry() {
               </div>
             </div>
             <div className="col-sm-6">
-              <img src={enter2} className="image" />
+              <img alt="" src={enter2} className="image" />
             </div>
           </div>
 
           <div className="row">
             <div className="col-sm-6">
               <div className="info-sec">
-                <img src={shape3} className="shape-img-style"  />
+                <img alt="" src={shape3} className="shape-img-style"  />
                 <div className="info">
                   <h4 className="title4">
                     Neuroscience & Psychology Based Reports
@@ -85,7 +84,7 @@ function EnterUnberry() {
               </div>
             </div>
             <div className="col-sm-6">
-              <img src={enter3} className="image" />
+              <img alt="" src={enter3} className="image" />
             </div>
           </div>
         </div>

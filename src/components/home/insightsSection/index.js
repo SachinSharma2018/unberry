@@ -31,7 +31,7 @@ function InsightsSection() {
           disableImagesLoaded={false}
         >
           <div className="image-card">
-            <img src={image1} className="image-style" />
+            <img alt="" src={image1} className="image-style" />
             <div className="info">
               Monday 19 March 2021 <span className="theme-purple">• Blog</span>
             </div>
@@ -48,7 +48,7 @@ function InsightsSection() {
           </div>
 
           <div className="image-card">
-            <img src={image2} className="image-style" />
+            <img alt="" src={image2} className="image-style" />
             <div className="info">
               Monday 19 March 2021{" "}
               <span className="theme-purple">• Case Study</span>
@@ -66,7 +66,7 @@ function InsightsSection() {
           </div>
 
           <div className="image-card">
-            <img src={image3} className="image-style" />
+            <img alt="" src={image3} className="image-style" />
             <div className="info">
               Monday 19 March 2021 <span className="theme-purple">• Blog</span>
             </div>

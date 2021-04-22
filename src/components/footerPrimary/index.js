@@ -10,7 +10,7 @@ function FooterPrimary() {
       <div className="container">
         <div className="row">
           <div className="col-sm-3">
-            <img src={logoImage} className="footer-logo" />
+            <img src={logoImage} className="footer-logo" alt="" />
           </div>
           <div className="col-sm-3">
             <h4 className="title4">Resources</h4>

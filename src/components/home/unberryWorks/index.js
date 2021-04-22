@@ -27,7 +27,7 @@ function UnberryWorks() {
                   company.
                 </p>
               </div>
-              <img src={shape1} />
+              <img alt="" src={shape1} />
             </div>
           </div>
 
@@ -44,7 +44,7 @@ function UnberryWorks() {
                 </p>
               </div>
 
-              <img src={shape2} />
+              <img alt="" src={shape2} />
             </div>
           </div>
 
@@ -60,7 +60,7 @@ function UnberryWorks() {
                   company.
                 </p>
               </div>
-              <img src={shape3} />
+              <img alt="" src={shape3} />
             </div>
           </div>
         </div>

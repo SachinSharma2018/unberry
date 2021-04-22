@@ -12,7 +12,7 @@ function TopHeader() {
         <div className="row">
           <div className="col-sm-6">
             <Link to="/">
-              <img src={logoImage} className="logo" />
+              <img alt="" src={logoImage} className="logo" />
             </Link>
           </div>
           <div className="col-sm-6 text-right">

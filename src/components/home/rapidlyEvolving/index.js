@@ -1,4 +1,3 @@
-import downArrow from "../../../assets/images/down-arrow.svg";
 import imgTest from "../../../assets/images/test2.png";
 import VerticalProgress from "../../verticalProgress";
 
@@ -51,7 +50,7 @@ function RapidlyEvolving() {
             </div>
           </div>
           <div className="col-sm-6">
-            <img src={imgTest} className="img-style" />
+            <img alt="" src={imgTest} className="img-style" />
           </div>
         </div>
       </div>

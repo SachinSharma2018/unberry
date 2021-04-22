@@ -3,7 +3,7 @@ import "./styles.scss";
 
 function HorizontalProgress(props) {
   return (
-    <div class="progress progress-bar-horizontal">
+    <div class={`progress progress-bar-horizontal ${props.className}`}>
       <div
         class="progress-bar"
         role="progressbar"

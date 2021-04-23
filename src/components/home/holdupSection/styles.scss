@@ -6,6 +6,7 @@
   background-color: $white;
   padding: 0px 0 150px;
   position: relative;
+  min-height: 100vh;
 
   .title2 {
     margin-bottom: 37px;
@@ -84,11 +85,7 @@
 
   .scroll-second {
     min-height: 100vh;
-    background: $white;
-
-    .space {
-      height: 150px;
-    }
+    padding-top: 150px;
   }
 
   // .h-100vh {
@@ -97,7 +94,7 @@
 
   .action-section {
     position: absolute;
-    top: 0;
+    top: 0 !important;
     height: 100%;
     width: 100%;
     transition: all 0.5s ease-in-out;
@@ -126,4 +123,28 @@
   .section-show {
     opacity: 1;
   }
+
+  #trigger2 {
+    position: relative;
+    top: 80px;
+    width: 50px;
+    height: 10px;
+    z-index: 9;
+  }
+
+  #trigger3 {
+    position: relative;
+    top: 100px;
+    width: 50px;
+    height: 10px;
+    z-index: 9;
+    // background: red;
+  }
+
+  // .space {
+  //   height: 250px;
+  //   position: sticky;
+  //   top: 0;
+  //   background-color: red;
+  // }
 }

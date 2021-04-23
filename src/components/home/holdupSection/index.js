@@ -16,25 +16,27 @@ function HoldupSection() {
       var rect = elmnt.getBoundingClientRect();
       var elemTop = rect.top;
 
-      if (elemTop < 50 && !offset) {
+      if (elemTop < -120 && !offset) {
         setOffset(true);
       }
     };
 
     let widthVal;
     if (offset) {
-      widthVal = setInterval(() => setWidth(width + 5), 500);
+      widthVal = setInterval(() => setWidth(width + 5), 80);
     }
     return () => clearInterval(widthVal);
   }, [width, offset]);
 
   return (
-    <Controller>
-      <section className="holdup-section-style" id="myDIV">
-        <div id="trigger" />
+    <section className="holdup-section-style" id="myDIV">
+      <div id="trigger" />
+      <div id="trigger2" />
+      <div id="trigger3" />
 
-        {!(width >= 100) ? (
-          <div className="position-relative">
+      {!(width >= 100) ? (
+        <div className="position-relative">
+          <Controller>
             <Scene duration={500} pin triggerHook="onLeave">
               <div className="scroll-section scroll-first">
                 <img alt="" src={grid1} />
@@ -44,8 +46,7 @@ function HoldupSection() {
             <Scene
               duration={1000}
               classToggle="section-show"
-              triggerElement="#trigger"
-              // indicators={true}
+              triggerElement="#trigger2"
               pin
               triggerHook="onLeave"
             >
@@ -53,7 +54,9 @@ function HoldupSection() {
                 <div className="container heading-section">
                   <div className="row">
                     <div className="col-sm-12">
-                      <h4 className="title2">Hold up one second..</h4>
+                      <h4 className="title2 animate__animated animate__pulse">
+                        Hold up one second..
+                      </h4>
                     </div>
                   </div>
                 </div>
@@ -62,29 +65,38 @@ function HoldupSection() {
                 </div>
               </div>
             </Scene>
-          </div>
-        ) : (
-          <section className="scroll-second">
-            <div className="space"/>
-            <div className="animate__animated animate__fadeIn animate__fast">
-              <div className="scroll-section">
-                <img alt="" src={grid2} />
-              </div>
-            </div>
-            <div className="animate__animated animate__fadeIn animate__delay-1s">
-              <div className="content-section">
-                <div className="science-box">
-                  Science-backed games can present multi-dimensional stimuli to
-                  reveal a lot about players cognition and behaviour.
+          </Controller>
+        </div>
+      ) : (
+        <Controller>
+          <Scene
+            duration={300}
+            triggerElement="#trigger3"
+            pin
+            triggerHook={0.1}
+            // indicators={true}
+          >
+            <section className="scroll-second">
+              <div className="animate__animated animate__fadeIn animate__fast">
+                <div className="scroll-section">
+                  <img alt="" src={grid2} />
                 </div>
-
-                <img alt="" src={shape1} className="img-style" />
               </div>
-            </div>
-          </section>
-        )}
-      </section>
-    </Controller>
+              <div className="animate__animated animate__fadeIn animate__delay-1s">
+                <div className="content-section">
+                  <div className="science-box">
+                    Science-backed games can present multi-dimensional stimuli
+                    to reveal a lot about players cognition and behaviour.
+                  </div>
+
+                  <img alt="" src={shape1} className="img-style" />
+                </div>
+              </div>
+            </section>
+          </Scene>
+        </Controller>
+      )}
+    </section>
   );
 }
 

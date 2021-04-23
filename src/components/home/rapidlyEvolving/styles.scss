@@ -13,14 +13,21 @@
     left: -100px;
   }
 
+  .heading-sec {
+    margin-bottom: 37px;
+  }
+
   .title2 {
     max-width: 70%;
-    margin-bottom: 37px;
   }
 
   .description {
     max-width: 65%;
     margin-top: 10px;
+
+    &.xs {
+      font-size: 14px;
+    }
   }
 
   .timeline-item {

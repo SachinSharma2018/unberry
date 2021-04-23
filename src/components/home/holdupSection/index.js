@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react";
-import grid1 from "../../../assets/images/big-grid.svg";
-import grid2 from "../../../assets/images/big-grid2.svg";
+import grid1 from "../../../assets/images/shapes/big-grid.svg";
+import grid2 from "../../../assets/images/shapes/big-grid2.svg";
 import shape1 from "../../../assets/images/shapes/g1.svg";
 import HorizontalProgress from "../../horizontalProgress";
 import {Controller, Scene} from "react-scrollmagic";
@@ -23,7 +23,7 @@ function HoldupSection() {
 
     let widthVal;
     if (offset) {
-      widthVal = setInterval(() => setWidth(width + 5), 80);
+      widthVal = setInterval(() => setWidth(width + 5), 150);
     }
     return () => clearInterval(widthVal);
   }, [width, offset]);
@@ -34,15 +34,25 @@ function HoldupSection() {
       <div id="trigger2" />
       <div id="trigger3" />
 
+      <Controller>
+        <Scene duration={"100%"} pin triggerHook="onLeave">
+          <div className="scroll-section scroll-first">
+            <img
+              alt=""
+              src={grid1}
+              className={!(width >= 100) ? "" : "animationActive"}
+            />
+            {width >= 100 && (
+              <div className="shape-active animate__animated animate__fadeIn animate__delay-1s">
+                <img alt="" src={grid2} />
+              </div>
+            )}
+          </div>
+        </Scene>
+      </Controller>
       {!(width >= 100) ? (
         <div className="position-relative">
           <Controller>
-            <Scene duration={500} pin triggerHook="onLeave">
-              <div className="scroll-section scroll-first">
-                <img alt="" src={grid1} />
-              </div>
-            </Scene>
-
             <Scene
               duration={1000}
               classToggle="section-show"
@@ -68,33 +78,18 @@ function HoldupSection() {
           </Controller>
         </div>
       ) : (
-        <Controller>
-          <Scene
-            duration={300}
-            triggerElement="#trigger3"
-            pin
-            triggerHook={0.1}
-            // indicators={true}
-          >
-            <section className="scroll-second">
-              <div className="animate__animated animate__fadeIn animate__fast">
-                <div className="scroll-section">
-                  <img alt="" src={grid2} />
-                </div>
+        <section className="scroll-second">
+          <div className="animate__animated animate__fadeIn animate__delay-1s">
+            <div className="content-section">
+              <div className="science-box">
+                “You can discover more about a person in an hour of play than a
+                year of conversation.” — Plato
               </div>
-              <div className="animate__animated animate__fadeIn animate__delay-1s">
-                <div className="content-section">
-                  <div className="science-box">
-                    Science-backed games can present multi-dimensional stimuli
-                    to reveal a lot about players cognition and behaviour.
-                  </div>
 
-                  <img alt="" src={shape1} className="img-style" />
-                </div>
-              </div>
-            </section>
-          </Scene>
-        </Controller>
+              <img alt="" src={shape1} className="img-style" />
+            </div>
+          </div>
+        </section>
       )}
     </section>
   );

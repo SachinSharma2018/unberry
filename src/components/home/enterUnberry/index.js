@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import logo from "../../../assets/images/logo.svg";
+import logo from "../../../assets/images/logo/logo.svg";
 
 import enter1 from "../../../assets/images/portfolio/enter1.svg";
 import enter2 from "../../../assets/images/portfolio/enter2.svg";
@@ -21,25 +21,40 @@ function EnterUnberry() {
               Enter <img alt="" src={logo} className="logo" />
             </h4>
             <p className="description">
-              Revolutionising Candidate Assessment Through Gameplay
+              Revolutionising Candidate Assessment Through Game <br/> Technology and
+              Neuroscience
             </p>
           </div>
         </div>
 
         <div className="timeline-style">
-          <div className="row mt--80">
+          <div className="row mt--80 align-items-center">
             <div className="col-sm-6">
               <div className="info-sec">
                 <img alt="" src={shape1} className="shape-img-style" />
                 <div className="info">
                   <h4 className="title4">
-                    Captivating And Challenging Mini Games
+                    Game Based <br /> Assessments
                   </h4>
                   <p className="description o-7">
-                    Candidates go through a 45 minute gameplay, navigating
-                    through complex situations.
+                    “Research says multi-measure tests are the best way to
+                    predict job performance; experience and personality tests
+                    are the worst.”
                   </p>
-                  <Link className="btn-link">Know More</Link>
+
+                  <ul className="list-section">
+                    <li className="list-item">
+                      Dynamic Scenarios doing Multi-Trait Analysis
+                    </li>
+
+                    <li className="list-item">
+                      Real-time Decisions and Authentic Responses
+                    </li>
+                    <li className="list-item">
+                      Beyond Self-Reported Data and Consciously Constructed
+                      Behaviors
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -48,17 +63,30 @@ function EnterUnberry() {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-sm-6">
               <div className="info-sec">
-                <img alt="" src={shape2} className="shape-img-style"  />
+                <img alt="" src={shape2} className="shape-img-style" />
                 <div className="info">
-                  <h4 className="title4">Gathering Thousands Of Data Points</h4>
+                  <h4 className="title4">
+                    Data Science backed <br /> Evaluation
+                  </h4>
                   <p className="description o-7">
-                    Candidates go through a 45 minute gameplay, navigating
-                    through complex situations.
+                    “When it comes to choosing a candidate, traditional
+                    interviews are as much use as flipping a coin - Professor,
+                    University of Michigan.”
                   </p>
-                  <Link className="btn-link">Know More</Link>
+
+                  <ul className="list-section">
+                    <li className="list-item">
+                      Exhaustive and Extensive Data Points
+                    </li>
+
+                    <li className="list-item">
+                      Account Process and Outcome Objectively
+                    </li>
+                    <li className="list-item">Unbiased and Fair Evaluation</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -67,19 +95,32 @@ function EnterUnberry() {
             </div>
           </div>
 
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-sm-6">
               <div className="info-sec">
-                <img alt="" src={shape3} className="shape-img-style"  />
+                <img alt="" src={shape3} className="shape-img-style" />
                 <div className="info">
                   <h4 className="title4">
-                    Neuroscience & Psychology Based Reports
+                    Neuroscience & <br /> Psychology <br /> Based Reports
                   </h4>
                   <p className="description o-7">
-                    Candidates go through a 45 minute gameplay, navigating
-                    through complex situations.
+                    Unberry reports Cognitive and Personality traits to predict
+                    real-world outcomes, all based on neuroscience and
+                    psychology principles.
                   </p>
-                  <Link className="btn-link">Know More</Link>
+
+                  <ul className="list-section">
+                    <li className="list-item">
+                      New Age Traits for High Performing Workplaces
+                    </li>
+
+                    <li className="list-item">
+                      Candid Observations and Normative Reports
+                    </li>
+                    <li className="list-item">
+                      Decode and Hire basis DNA of Existing Teams
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

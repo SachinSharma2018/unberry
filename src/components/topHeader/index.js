@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import logoImage from "../../assets/images/logo.svg";
+import logoImage from "../../assets/images/logo/logo.svg";
 import ButtonOutline from "../buttons/buttonOutline";
 
 // styles

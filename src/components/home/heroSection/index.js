@@ -2,7 +2,6 @@ import Lottie from "react-lottie";
 import animationData from "../../../assets/json/heroAnimation";
 
 import downArrow from "../../../assets/images/down-arrow.svg";
-import heroImage from "../../../assets/images/hero-image.png";
 
 import "./styles.scss";
 
@@ -12,11 +11,14 @@ function HeroSection() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-5">
-            <h1 className="title1">Using games to amplify your hiring</h1>
+            <h1 className="title1">
+              Bury Biases. <br />
+              Unbury Potential.
+            </h1>
             <p className="description o-7 mt--15">
-              Combining game technology and neuroscience to surface precise
-              signals and disrupt the way companies recruit, retain and develop
-              talent.
+              Combining game technology, data science and neuroscience to
+              surface precise signals and disrupt the way companies recruit,
+              retain and develop talent.
             </p>
 
             <button className="arrow-icon-btn">
@@ -27,16 +29,16 @@ function HeroSection() {
         </div>
       </div>
       <div className="heroLottie">
-      <Lottie
-        options={{
-          animationData: animationData,
-          loop: true,
-          autoplay: true,
-          rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice",
-          },
-        }}
-      />
+        <Lottie
+          options={{
+            animationData: animationData,
+            loop: true,
+            autoplay: true,
+            rendererSettings: {
+              preserveAspectRatio: "xMidYMid slice",
+            },
+          }}
+        />
       </div>
     </section>
   );

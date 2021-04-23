@@ -45,7 +45,7 @@
 
   .timeline-style {
     .description {
-      max-width: 55%;
+      max-width: 75%;
       margin: 20px 0;
       font-size: 18px;
     }
@@ -71,15 +71,43 @@
     font-size: 25px;
     font-weight: 600;
     color: $white;
-    max-width: 40%;
   }
 
   .info-sec {
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
   }
 
   .shape-img-style {
-    margin-right: 25px;
+    margin-bottom: 25px;
+
+  }
+
+  // list style
+  .list-section {
+    list-style: none;
+    color: $white;
+    padding: 0;
+    margin-top: 40px;
+
+    li {
+      margin-bottom: 20px;
+      opacity: 0.7;
+      max-width: 55%;
+      display: flex;
+      align-items: flex-start;
+
+      &:before {
+        display: inline-block;
+        content: '';
+        background: url('../../../assets/images/shapes/cube.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+      }
+    }
   }
 }

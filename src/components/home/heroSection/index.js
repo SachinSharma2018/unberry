@@ -1,3 +1,6 @@
+import Lottie from "react-lottie";
+import animationData from "../../../assets/json/heroAnimation";
+
 import downArrow from "../../../assets/images/down-arrow.svg";
 import heroImage from "../../../assets/images/hero-image.png";
 
@@ -23,7 +26,18 @@ function HeroSection() {
           </div>
         </div>
       </div>
-      <img alt="" src={heroImage} className="hero-image" />
+      <div className="heroLottie">
+      <Lottie
+        options={{
+          animationData: animationData,
+          loop: true,
+          autoplay: true,
+          rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice",
+          },
+        }}
+      />
+      </div>
     </section>
   );
 }

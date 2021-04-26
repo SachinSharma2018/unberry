@@ -22,7 +22,7 @@ function Home() {
 
       <RapidlyEvolving />
 
-      <HoldupSection />
+      {/* <HoldupSection /> */}
 
       <EnterUnberry />
 

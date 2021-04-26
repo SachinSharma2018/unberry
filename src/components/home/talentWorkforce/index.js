@@ -13,11 +13,10 @@ function TalentWorkforce() {
         <div className="row">
           <div className="col-sm-4">
             <h4 className="title2">
-              Find <span className="theme-purple">The Perfect Talent </span> For
-              Your Workforce
+              Find <span className="theme-purple">The Perfect Talent </span> And
+              Transform your Hiring.
             </h4>
-
-            <img alt="" src={shape0} className="img1" />
+            {/* <img alt="" src={shape0} className="img1" /> */}
           </div>
 
           <div className="col-sm-8">
@@ -30,8 +29,8 @@ function TalentWorkforce() {
                   </h4>
                   <p className="description">
                     Improve the efficiency in Hiring. Reduce time to hire by{" "}
-                    <span className="theme-purple">45%</span> and cost to hire
-                    by <span className="theme-purple">88%</span>
+                    <span className="theme-purple">50-60%</span> nd cost upwards
+                    of <span className="theme-purple">25%</span>
                   </p>
                 </div>
               </div>
@@ -43,9 +42,10 @@ function TalentWorkforce() {
                     Fair and Unbiased <br /> Process
                   </h4>
                   <p className="description">
-                    Widen your sourcing pool with a fair and unbiased way of
-                    hiring. Increase diversity by{" "}
-                    <span className="theme-purple">56%</span>
+                    Increase diversity representation in final rounds by{" "}
+                    <span className="theme-purple">60-100%.</span> Increase
+                    overall retention by{" "}
+                    <span className="theme-purple">50%</span>
                   </p>
                 </div>
               </div>
@@ -57,9 +57,9 @@ function TalentWorkforce() {
                     Access to Hidden <br /> Talent Pools
                   </h4>
                   <p className="description">
-                    <span className="theme-purple"> 46%</span> of people hired
-                    are bad hires. Candidate Retention Increases by{" "}
-                    <span className="theme-purple">77%</span>
+                    Widen sourcing pool with fair and unbiased way of hiring.{" "}
+                    <span className="theme-purple">2x</span> increase in
+                    candidate yield.
                   </p>
                 </div>
               </div>
@@ -71,8 +71,9 @@ function TalentWorkforce() {
                     Long Lasting <br /> Brand Impact
                   </h4>
                   <p className="description">
-                    Candidates find game based assessments to be better
-                    experience by <span className="theme-purple">95%.</span>
+                    Over 95% candidates with game based assessments have better
+                    experience. <span className="theme-purple">80%</span> or
+                    more have favorable impression of company.
                   </p>
                 </div>
               </div>

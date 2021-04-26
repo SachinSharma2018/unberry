@@ -10,7 +10,9 @@ function UnberryWorks() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <h4 className="title2">So here’s how Unberry works.</h4>
+            <h4 className="title2">
+              Here's How Unberry Works. <br/> It’s simply a game changer
+            </h4>
           </div>
         </div>
 
@@ -23,8 +25,12 @@ function UnberryWorks() {
                   We create your custom screening benchmarks.
                 </h4>
                 <p className="description">
-                  To find out what ‘good’ looks like in each role within the
-                  company.
+                  We do Unberry rounds with your teams, lay out their traits and
+                  create your custom profile. It'll help find what 'good' looks
+                  like for each role Design - Only bottom part of tetris blocks
+                  remains - to show company's fixed DNA. Increase use of violet
+                  in the block. Do not show variety of pieces above it in this
+                  image
                 </p>
               </div>
               <img alt="" src={shape1} />
@@ -36,11 +42,12 @@ function UnberryWorks() {
               <div className="info">
                 <div className="number">2</div>
                 <h4 className="title4">
-                  Candidates play remotely and get assessed immediately.
+                  Candidates play remotely and get assessed immediately
                 </h4>
                 <p className="description">
-                  A link with the automated Unberry gameplay takes care of
-                  everything.
+                  A link with automated Unberry gameplay takes care of
+                  everything Design - Include the one that fits in the third
+                  image as an option, meaning you don't know which one to choose
                 </p>
               </div>
 
@@ -56,8 +63,10 @@ function UnberryWorks() {
                   You get detailed reports with relevant, predictive insights.
                 </h4>
                 <p className="description">
-                  To find out what ‘good’ looks like in each role within the
-                  company.
+                  With insights around multi-level traits, make data-driven
+                  probes during hiring and more informed & faster decisions
+                  Design - Make the bottom block more violet heavy (use same
+                  block in first point as well)
                 </p>
               </div>
               <img alt="" src={shape3} />

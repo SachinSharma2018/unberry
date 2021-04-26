@@ -101,7 +101,7 @@ function EnterUnberry() {
                 <img alt="" src={shape3} className="shape-img-style" />
                 <div className="info">
                   <h4 className="title4">
-                    Neuroscience & <br /> Psychology <br /> Based Reports
+                    Neuroscience & Psychology <br/> Based Reports
                   </h4>
                   <p className="description o-7">
                     Unberry reports Cognitive and Personality traits to predict

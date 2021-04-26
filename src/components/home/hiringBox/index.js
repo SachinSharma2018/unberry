@@ -6,10 +6,11 @@ function HiringBox() {
   return (
     <section className="hiring-section">
       <div className="content-box">
-        <h1 className="title2">Take the guesswork out of your hiring</h1>
+        <h1 className="title2">Take the Guesswork out...</h1>
         <p className="description o-7 mt--15">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Transform the way you hire - by taking out inefficiencies and biases.
+          By switching to a smarter, unbiased, tech-driven and experiential way
+          of hiring.
         </p>
 
         <div className="newsletter-section">

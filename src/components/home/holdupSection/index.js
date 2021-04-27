@@ -3,7 +3,6 @@ import grid1 from "../../../assets/images/shapes/big-grid.svg";
 import grid2 from "../../../assets/images/shapes/big-grid2.svg";
 import shape1 from "../../../assets/images/shapes/g1.svg";
 import HorizontalProgress from "../../horizontalProgress";
-import {Controller, Scene} from "react-scrollmagic";
 
 import "./styles.scss";
 
@@ -30,7 +29,7 @@ function HoldupSection() {
 
   return (
     <section className="holdup-section-style" id="myDIV">
-      <div id="trigger" />
+      {/* <div id="trigger" />
       <div id="trigger2" />
       <div id="trigger3" />
 
@@ -90,7 +89,7 @@ function HoldupSection() {
             </div>
           </div>
         </section>
-      )}
+      )} */}
     </section>
   );
 }

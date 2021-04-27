@@ -10,7 +10,7 @@ function HeroSection() {
     <section className="hero-section">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-sm-5">
+          <div className="col-sm-5 col-12">
             <h1 className="title1">
               Bury Biases. <br />
               Unbury Potential.

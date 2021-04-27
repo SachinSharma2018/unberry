@@ -14,5 +14,9 @@
     width: 100%;
     left: 0;
     padding: 30px;
+
+    @include mobile {
+      padding: 30px 5px;
+    }
   }
 }

@@ -27,9 +27,7 @@ function UnberryWorks() {
                 <p className="description">
                   We do Unberry rounds with your teams, lay out their traits and
                   create your custom profile. It'll help find what 'good' looks
-                  like for each role Design - Only bottom part of tetris blocks
-                  remains - to show company's fixed DNA. Increase use of violet
-                  in the block. Do not show variety of pieces above it in this
+                  like for each role
                   image
                 </p>
               </div>
@@ -46,8 +44,7 @@ function UnberryWorks() {
                 </h4>
                 <p className="description">
                   A link with automated Unberry gameplay takes care of
-                  everything Design - Include the one that fits in the third
-                  image as an option, meaning you don't know which one to choose
+                  everything
                 </p>
               </div>
 
@@ -65,8 +62,6 @@ function UnberryWorks() {
                 <p className="description">
                   With insights around multi-level traits, make data-driven
                   probes during hiring and more informed & faster decisions
-                  Design - Make the bottom block more violet heavy (use same
-                  block in first point as well)
                 </p>
               </div>
               <img alt="" src={shape3} />

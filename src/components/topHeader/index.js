@@ -10,12 +10,12 @@ function TopHeader() {
     <section className="top-header-style">
       <div className="container">
         <div className="row">
-          <div className="col-sm-6">
+          <div className="col-sm-6 col-6">
             <Link to="/">
               <img alt="" src={logoImage} className="logo" />
             </Link>
           </div>
-          <div className="col-sm-6 text-right">
+          <div className="col-sm-6 col-6 text-right">
             <ButtonOutline title="Book Demo"/>
           </div>
         </div>

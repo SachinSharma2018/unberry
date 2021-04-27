@@ -7,10 +7,10 @@ function VerticalProgress(props) {
       <div
         class="progress-bar"
         role="progressbar"
-        aria-valuenow={props.number}
+        aria-valuenow={props.height}
         aria-valuemin="0"
         aria-valuemax="100"
-        style={{height: `${props.number}%`}}
+        style={{height: `${props.height}%`}}
       />
     </div>
   );

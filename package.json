@@ -13,11 +13,12 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-flickity-component": "^3.6.1",
-    "react-gsap": "^3.2.1",
     "react-lottie": "^1.2.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "react-scrollmagic": "^2.3.0",
+    "scrollmagic": "^2.0.8",
+    "scrollmagic-plugin-gsap": "^1.0.4",
+    "scrollmagic-plugins": "^1.0.8",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

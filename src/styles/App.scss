@@ -49,6 +49,10 @@ body {
   font-size: 3rem;
   line-height: 1.4;
   letter-spacing: -0.29px;
+
+  @include mobile {
+    font-size: 2.5rem;
+  }
 }
 
 .title2 {

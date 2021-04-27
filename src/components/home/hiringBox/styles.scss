@@ -94,15 +94,28 @@
     right: 0;
     bottom: -130px;
 
+    @include mobile {
+      max-width: 100%;
+      padding: 60px 30px;
+    }
+
     .title2 {
       color: $white;
       max-width: 50%;
       margin: 0 auto;
+
+      @include mobile {
+        max-width: 100%;
+      }
     }
   
     .description {
       color: $white;
       max-width: 80%;
+
+      @include mobile {
+        max-width: 100%;
+      }
     }
 
     .started-btn {
@@ -123,6 +136,18 @@
       justify-content: center;
       width: 60%;
       margin-top: 10px;
+
+      @include mobile {
+        width: 90%;
+        flex-direction: column;
+      }
+
+      .input-box-style {
+
+        @include mobile {
+          margin-bottom: 30px;
+        }
+      }
     }
   }
 }

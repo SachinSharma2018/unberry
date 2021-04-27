@@ -13,6 +13,36 @@
   .title2 {
     margin-bottom: 37px;
     font-weight: 600;
+
+    span {
+
+      @include mobile {
+        display: none;
+      }
+    }
+  }
+
+  .flex-style {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 37px;
+
+    .title2 {
+      margin: 0;
+    }
+  }
+
+  .btn-more {
+    display: none;
+    font-size: 16px;
+    color: $black;
+    font-weight: 500;
+
+    @include mobile {
+      display: block;
+      text-transform: uppercase;
+    }
   }
 
   .info {
@@ -72,5 +102,10 @@
   .image-card {
     width: 33%;
     margin-right: 50px;
+
+    @include mobile {
+      width: 90%;
+      margin-right: 20px;
+    }
   }
 }

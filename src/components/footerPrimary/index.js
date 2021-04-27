@@ -11,6 +11,11 @@ function FooterPrimary() {
         <div className="row">
           <div className="col-sm-3">
             <img src={logoImage} className="footer-logo" alt="" />
+            <div className="decription d-sm-none mt--10">
+              Combining game technology, data science and neuroscience to
+              surface precise signals and disrupt the way companies recruit,
+              retain and develop talent.
+            </div>
           </div>
           <div className="col-sm-3">
             <h4 className="title4">Resources</h4>

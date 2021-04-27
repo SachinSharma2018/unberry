@@ -20,7 +20,11 @@ function InsightsSection() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <h4 className="title2">Our Most Recent Insights</h4>
+            <div className="flex-style">
+            <h4 className="title2"><span>Our Most</span> Recent Insights</h4>
+
+            <Link className="btn-more">View All</Link>
+            </div>
           </div>
         </div>
 

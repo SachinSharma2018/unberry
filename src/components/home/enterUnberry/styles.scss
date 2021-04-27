@@ -49,10 +49,18 @@
       max-width: 75%;
       margin: 20px 0;
       font-size: 18px;
+
+      @include mobile {
+        max-width: 100%;
+      }
     }
 
     .image {
       width: 400px;
+
+      @include mobile {
+        width: 100%;
+      }
     }
 
     .row {
@@ -72,6 +80,16 @@
     font-size: 34px;
     font-weight: 600;
     color: $white;
+
+    @include mobile {
+      font-size: 30px;
+    }
+
+    br {
+      @include mobile {
+       display: none;
+      }
+    }
   }
 
   .info-sec {

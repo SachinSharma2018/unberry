@@ -18,8 +18,34 @@ function RapidlyEvolving() {
   const [height, setHeight] = useState(0);
   const [height2, setHeight2] = useState(0);
   const [height3, setHeight3] = useState(0);
+  
+  const timelineData = [
+    {
+      title: "Focus on potential",
+      description: `Evidence suggests that nearly 50% applicants embellish
+      their CVs, reducing the utility of résumés as initial
+      screening tools.`,
+      height: height
+    },
+    {
+      title: "Avoid bad hires",
+      description: `46% of new hires failed within 18 months. 89% of them were
+      due to attitude or personality issues. Makes perfect sense
+      to hire first time right, eh?`,
+      height: height2
+    },
+    {
+      title: "Identify your best-fit",
+      description: `Top Performers yields up to 67% more productivity and
+      profit. Know the key traits required for successful teams,
+      identify your best fit accordingly.`,
+      height: height3
+    },
+  ];
+
   const [offset, setOffset] = useState(false);
   const [videoSource, setVideoSource] = useState(video1);
+  const [timeline, setTimeline] = useState(timelineData[0]);
 
   useEffect(() => {
     ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
@@ -28,9 +54,7 @@ function RapidlyEvolving() {
     const media = window.matchMedia(`(min-width: 768px)`);
 
     if (media.matches) {
-      // Animation First Video
       var introAnimationcontroller = new ScrollMagic.Controller();
-
       var pinSceneIntro = new ScrollMagic.Scene({
         triggerElement: "#triggerSection",
         triggerHook: 0.02,
@@ -47,17 +71,20 @@ function RapidlyEvolving() {
     window.onscroll = () => {
       var elmnt = document.getElementById("myDIV");
       var rect = elmnt.getBoundingClientRect();
-      var elemTop = rect.top;
+      var elemTop = rect?.top;
 
       if (elemTop < -150 && !offset) {
         setOffset(true);
       }
     };
 
+    var elmntItem = document.getElementById("item1");
+
     let heightVal;
     if (offset && height <= 100) {
       heightVal = setInterval(() => setHeight(height + 5), 320);
     }
+    elmntItem.classList.add("timeline-active");
     return () => clearInterval(heightVal);
   }, [height, offset]);
 
@@ -67,8 +94,9 @@ function RapidlyEvolving() {
     let heightVal2;
     if (height >= 100 && height2 <= 100) {
       heightVal2 = setInterval(() => setHeight2(height2 + 5), 120);
-      elmnt.classList.add("timeline-active");
+      elmnt?.classList.add("timeline-active");
       setVideoSource(video2);
+      setTimeline(timelineData[1]);
     }
     return () => clearInterval(heightVal2);
   }, [height2, height, offset]);
@@ -79,8 +107,9 @@ function RapidlyEvolving() {
     let heightVal3;
     if (height2 >= 100 && height3 <= 100) {
       heightVal3 = setInterval(() => setHeight3(height3 + 5), 300);
-      elmnt.classList.add("timeline-active");
+      elmnt?.classList.add("timeline-active");
       setVideoSource(video3);
+      setTimeline(timelineData[2]);
     }
     return () => clearInterval(heightVal3);
   }, [height3, height2, offset]);
@@ -88,6 +117,13 @@ function RapidlyEvolving() {
   useEffect(() => {
     document.getElementById("vid").play();
   }, [videoSource]);
+
+  
+
+// const getHeight=(index)=>{​​
+//   if(index===0){return height1 } else if(index===1){ return height2}else {return height3}
+// }​​
+
 
   return (
     <section className="rapidly-evolving-style" id="myDIV">
@@ -103,47 +139,49 @@ function RapidlyEvolving() {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-sm-6">
+          <div className="row row-container">
+            <div className="col-sm-6 hide-mobile">
               <div className="timeline-style">
-                <div className="timeline-item timeline-active" id="item1">
-                  <VerticalProgress height={height} />
-                  <div className="content">
-                    <h4 className="title4"> Focus on potential</h4>
-                    <div className="description o-7">
-                      Evidence suggests that nearly 50% applicants embellish
-                      their CVs, reducing the utility of résumés as initial
-                      screening tools.
-                    </div>
-                  </div>
-                </div>
+                {timelineData.map((data, index) => {
+                  return (
+                    <div
+                      key={index}
+                      className="timeline-item"
+                      id={`item${index + 1}`}
+                    >
+                      <VerticalProgress height={data.height} />
 
-                <div className="timeline-item" id="item2">
-                  <VerticalProgress height={height2} />
-                  <div className="content">
-                    <h4 className="title4"> Avoid bad hires</h4>
-                    <div className="description o-7">
-                      46% of new hires failed within 18 months. 89% of them were
-                      due to attitude or personality issues. Makes perfect sense
-                      to hire first time right, eh?
+                      <div className="content">
+                        <h4 className="title4">{data.title}</h4>
+                        <div className="description o-7">
+                          {data.description}
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
+                  );
+                })}
+              </div>
+            </div>
 
-                <div className="timeline-item" id="item3">
-                  <VerticalProgress height={height3} />
+            {/* for mobile */}
+            <div className="col-sm-6 order-mobile1 d-sm-none">
+              <div className="timeline-style">
+                <div className="timeline-item timeline-active">
                   <div className="content">
-                    <h4 className="title4"> Identify your best-fit</h4>
+                    <h4 className="title4"> {timeline.title}</h4>
                     <div className="description o-7">
-                      Top Performers yields up to 67% more productivity and
-                      profit. Know the key traits required for successful teams,
-                      identify your best fit accordingly.
+                      {timeline.description}
                     </div>
                   </div>
                 </div>
               </div>
+              <div className="bottom-progress-bar">
+                <VerticalProgress height={height} />
+                <VerticalProgress height={height2} />
+                <VerticalProgress height={height3} />
+              </div>
             </div>
-            <div className="col-sm-6">
+            <div className="col-sm-6 order-mobile2">
               <div className="videoAnimation">
                 <video autoplay muted id="vid" loop key={videoSource}>
                   <source src={videoSource} type="video/mp4" />

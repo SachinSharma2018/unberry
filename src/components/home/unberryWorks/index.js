@@ -6,12 +6,14 @@ import Flickity from "react-flickity-component";
 import "./styles.scss";
 
 function UnberryWorks() {
+  const media = window.matchMedia(`(min-width: 768px)`);
+
   const flickityOptions = {
     freeScroll: true,
     contain: true,
-    // disable previous & next buttons and dots
-    prevNextButtons: false,
+    prevNextButtons: media.matches ? false : true,
     pageDots: false,
+    wrapAround: true,
   };
 
   const infoBoxes = [
@@ -52,7 +54,7 @@ function UnberryWorks() {
         <div className="row mt--30">
           <div className="col-sm-12">
             <Flickity
-              className={"carousel outline-none"}
+              className={"carousel outline-none worksSlider"}
               elementType={"div"}
               options={flickityOptions}
               disableImagesLoaded={false}

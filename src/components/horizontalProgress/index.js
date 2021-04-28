@@ -5,7 +5,7 @@ function HorizontalProgress(props) {
   return (
     <div class={`progress progress-bar-horizontal ${props.className}`}>
       <div
-        class="progress-bar"
+        className="progress-bar"
         role="progressbar"
         aria-valuenow={props.width}
         aria-valuemin="0"

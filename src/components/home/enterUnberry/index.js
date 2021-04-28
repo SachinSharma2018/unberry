@@ -1,5 +1,5 @@
 // Images
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import logo from "../../../assets/images/logo/logo.svg";
 import enter1 from "../../../assets/images/portfolio/enter1.svg";
 import enter2 from "../../../assets/images/portfolio/enter2.svg";
@@ -13,9 +13,14 @@ import "./styles.scss";
 function EnterUnberry() {
   const media = window.matchMedia(`(min-width: 768px)`);
 
-  const [isOpened, setIsOpened] = useState((media.matches) ? true : false);
-  const toggle = () => setIsOpened(true);
+  const [isOpened1, setIsOpened1] = useState(media.matches ? true : false);
+  const toggle1 = () => setIsOpened1(true);
 
+  const [isOpened2, setIsOpened2] = useState(media.matches ? true : false);
+  const toggle2 = () => setIsOpened2(true);
+
+  const [isOpened3, setIsOpened3] = useState(media.matches ? true : false);
+  const toggle3 = () => setIsOpened3(true);
 
   return (
     <section className="enter-unberry-style">
@@ -46,7 +51,7 @@ function EnterUnberry() {
                     predict job performance; experience and personality tests
                     are the worst.”
                   </p>
-                  {isOpened && (
+                  {isOpened1 && (
                     <ul className="list-section">
                       <li className="list-item">
                         Dynamic Scenarios doing Multi-Trait Analysis
@@ -68,9 +73,9 @@ function EnterUnberry() {
               <img alt="" src={enter1} className="image" />
             </div>
 
-            {!isOpened && (
+            {!isOpened1 && (
               <div className="button-section">
-                <button className="more-detail" onClick={toggle}>
+                <button className="more-detail" onClick={toggle1}>
                   View More
                 </button>
               </div>
@@ -90,7 +95,7 @@ function EnterUnberry() {
                     interviews are as much use as flipping a coin - Professor,
                     University of Michigan.”
                   </p>
-                  {isOpened && (
+                  {isOpened2 && (
                     <ul className="list-section">
                       <li className="list-item">
                         Exhaustive and Extensive Data Points
@@ -111,9 +116,9 @@ function EnterUnberry() {
               <img alt="" src={enter2} className="image" />
             </div>
 
-            {!isOpened && (
+            {!isOpened2 && (
               <div className="button-section">
-                <button className="more-detail" onClick={toggle}>
+                <button className="more-detail" onClick={toggle2}>
                   View More
                 </button>
               </div>
@@ -133,12 +138,11 @@ function EnterUnberry() {
                     real-world outcomes, all based on neuroscience and
                     psychology principles.
                   </p>
-                  {isOpened && (
+                  {isOpened3 && (
                     <ul className="list-section">
                       <li className="list-item">
                         New Age Traits for High Performing Workplaces
                       </li>
-
                       <li className="list-item">
                         Candid Observations and Normative Reports
                       </li>
@@ -154,9 +158,9 @@ function EnterUnberry() {
               <img alt="" src={enter3} className="image" />
             </div>
 
-            {!isOpened && (
+            {!isOpened3 && (
               <div className="button-section">
-                <button className="more-detail" onClick={toggle}>
+                <button className="more-detail" onClick={toggle3}>
                   View More
                 </button>
               </div>

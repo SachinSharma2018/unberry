@@ -3,9 +3,9 @@ import "./styles.scss";
 
 function VerticalProgress(props) {
   return (
-    <div class="progress progress-bar-vertical">
+    <div className="progress progress-bar-vertical">
       <div
-        class="progress-bar"
+        className="progress-bar"
         role="progressbar"
         aria-valuenow={props.height}
         aria-valuemin="0"

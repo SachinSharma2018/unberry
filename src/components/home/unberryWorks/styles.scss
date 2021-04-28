@@ -8,6 +8,10 @@
   position: relative;
   min-height: 100vh;
 
+  @include mobile {
+    padding: 80px 0 0;
+  }
+
   &:before {
     position: absolute;
     bottom: 0;
@@ -78,6 +82,39 @@
       img {
         width: 120px;
       }
+    }
+  }
+
+  .worksSlider {
+    text-align: right;
+
+    .flickity-viewport {
+      text-align: left;
+    }
+  }
+
+  .flickity-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background: #645bcb;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+    &.next {
+      margin-left: 10px;
+    }
+
+    &.previous {
+      display: none;
+    }
+
+    svg {
+      fill: white;
+      width: 16px;
     }
   }
 }

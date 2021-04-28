@@ -9,7 +9,7 @@ function FooterPrimary() {
     <section className="footer-style">
       <div className="container">
         <div className="row">
-          <div className="col-sm-3">
+          <div className="col-sm-3 order-4">
             <img src={logoImage} className="footer-logo" alt="" />
             <div className="decription d-sm-none mt--10">
               Combining game technology, data science and neuroscience to

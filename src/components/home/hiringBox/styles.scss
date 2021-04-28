@@ -9,12 +9,17 @@
   z-index: 1;
   background-color: $white;
   width: 100%;
-  height: 400px;
+  min-height: 400px;
   background-image: url('../../../assets/images/line-pattern.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 0px 0px 50px 50px;
+
+  @include mobile {
+    min-height: 400px;
+    background-position: top;
+  }
 
   &::before {
     position: absolute;
@@ -25,6 +30,13 @@
     content: "";
     background: url("../../../assets/images/bg/bg4.svg") no-repeat;
     background-size: contain;
+
+    @include mobile {
+      top: 40px;
+      background-size: cover;
+      background-position: top;
+      background: url('../../../assets/images/bg/mobile-bg1.svg') no-repeat;
+    }
   }
 
   .shape1 {
@@ -36,6 +48,11 @@
     background: url('../../../assets/images/shapes/f1.svg');
     background-repeat: no-repeat;
     transform: scale(0.7);
+
+    @include mobile {
+      left: -52px;
+      transform: scale(0.6);
+    }
   }
   .shape2 {
     position: absolute;
@@ -46,6 +63,11 @@
     background: url('../../../assets/images/shapes/f2.svg');
     background-repeat: no-repeat;
     transform: scale(0.7);
+
+    @include mobile {
+      right: -59px;
+      transform: scale(0.6);
+    }
   }
 
   .container {
@@ -95,8 +117,8 @@
     bottom: -130px;
 
     @include mobile {
-      max-width: 100%;
-      padding: 60px 30px;
+      max-width: 90%;
+      padding: 40px 20px;
     }
 
     .title2 {
@@ -106,6 +128,8 @@
 
       @include mobile {
         max-width: 100%;
+        font-size: 1.5rem;
+        font-weight: 600;
       }
     }
   
@@ -115,6 +139,13 @@
 
       @include mobile {
         max-width: 100%;
+      }
+    }
+
+    .input-box-style .form-input {
+
+      @include mobile {
+        height: 45px;
       }
     }
 
@@ -128,6 +159,12 @@
       margin-left: 10px;
       font-size: 13px;
       font-weight: 600;
+
+      @include mobile {
+        font-size: 17px;
+        min-width: 140px;
+        min-height: 45px;
+      }
     }
 
     .newsletter-section {

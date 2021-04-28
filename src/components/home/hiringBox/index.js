@@ -1,5 +1,4 @@
 import InputPrimary from "../../inputPrimary";
-
 import "./styles.scss";
 
 function HiringBox() {
@@ -12,13 +11,11 @@ function HiringBox() {
           By switching to a smarter, unbiased, tech-driven and experiential way
           of hiring.
         </p>
-
         <div className="newsletter-section">
           <InputPrimary placeholder="hereisme@myofficalmail.com" />
           <button className="started-btn">Get started</button>
         </div>
       </div>
-
       <div className="shape1" />
       <div className="shape2" />
     </section>

@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import logoImage from "../../assets/images/logo/logo.svg";
+import heart from "../../assets/images/heart.svg"
 
 // styles
 import "./styles.scss";
@@ -46,7 +47,7 @@ function FooterPrimary() {
         <div className="copyright-section">
           <div className="row">
             <div className="col-sm-6">
-              Made with ❤️ lots of love, for Grappus by Grappus.
+              Made with <img src={heart} className="icon-heart"/>lots of love, for Grappus by Grappus.
             </div>
             <div className="col-sm-6 text-right">
               © All rights reserved by Grappus 2021

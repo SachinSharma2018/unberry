@@ -18,28 +18,28 @@ function RapidlyEvolving() {
   const [height, setHeight] = useState(0);
   const [height2, setHeight2] = useState(0);
   const [height3, setHeight3] = useState(0);
-  
+
   const timelineData = [
     {
       title: "Focus on potential",
       description: `Evidence suggests that nearly 50% applicants embellish
       their CVs, reducing the utility of résumés as initial
       screening tools.`,
-      height: height
+      height: height,
     },
     {
       title: "Avoid bad hires",
       description: `46% of new hires failed within 18 months. 89% of them were
       due to attitude or personality issues. Makes perfect sense
       to hire first time right, eh?`,
-      height: height2
+      height: height2,
     },
     {
       title: "Identify your best-fit",
       description: `Top Performers yields up to 67% more productivity and
       profit. Know the key traits required for successful teams,
       identify your best fit accordingly.`,
-      height: height3
+      height: height3,
     },
   ];
 
@@ -118,12 +118,9 @@ function RapidlyEvolving() {
     document.getElementById("vid").play();
   }, [videoSource]);
 
-  
-
-// const getHeight=(index)=>{​​
-//   if(index===0){return height1 } else if(index===1){ return height2}else {return height3}
-// }​​
-
+  // const getHeight=(index)=>{​​
+  //   if(index===0){return height1 } else if(index===1){ return height2}else {return height3}
+  // }​​
 
   return (
     <section className="rapidly-evolving-style" id="myDIV">

@@ -146,6 +146,10 @@
     position: relative;
     z-index: 1;
 
+    @include desktop {
+      display: none;
+    }
+
     &:after {
       display: inline-block;
       content: "";

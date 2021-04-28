@@ -1,5 +1,5 @@
 // Images
-import { useState } from "react";
+import {useEffect, useState} from "react";
 import logo from "../../../assets/images/logo/logo.svg";
 import enter1 from "../../../assets/images/portfolio/enter1.svg";
 import enter2 from "../../../assets/images/portfolio/enter2.svg";
@@ -11,8 +11,12 @@ import shape3 from "../../../assets/images/shapes/b3.svg";
 import "./styles.scss";
 
 function EnterUnberry() {
-  const [showResults, setShowResults] = useState(false);
-  const onClick = () => setShowResults(true);
+  const media = window.matchMedia(`(min-width: 768px)`);
+
+  const [isOpened, setIsOpened] = useState((media.matches) ? true : false);
+  const toggle = () => setIsOpened(true);
+
+
   return (
     <section className="enter-unberry-style">
       <div className="container">
@@ -42,7 +46,7 @@ function EnterUnberry() {
                     predict job performance; experience and personality tests
                     are the worst.”
                   </p>
-                  {showResults ? (
+                  {isOpened && (
                     <ul className="list-section">
                       <li className="list-item">
                         Dynamic Scenarios doing Multi-Trait Analysis
@@ -56,7 +60,7 @@ function EnterUnberry() {
                         Behaviors
                       </li>
                     </ul>
-                  ) : null}
+                  )}
                 </div>
               </div>
             </div>
@@ -64,9 +68,13 @@ function EnterUnberry() {
               <img alt="" src={enter1} className="image" />
             </div>
 
-            <div className="button-section">
-              <button className="more-detail" onClick={onClick}>View More</button>
-            </div>
+            {!isOpened && (
+              <div className="button-section">
+                <button className="more-detail" onClick={toggle}>
+                  View More
+                </button>
+              </div>
+            )}
           </div>
 
           <div className="row align-items-center">
@@ -82,17 +90,20 @@ function EnterUnberry() {
                     interviews are as much use as flipping a coin - Professor,
                     University of Michigan.”
                   </p>
+                  {isOpened && (
+                    <ul className="list-section">
+                      <li className="list-item">
+                        Exhaustive and Extensive Data Points
+                      </li>
 
-                  <ul className="list-section">
-                    <li className="list-item">
-                      Exhaustive and Extensive Data Points
-                    </li>
-
-                    <li className="list-item">
-                      Account Process and Outcome Objectively
-                    </li>
-                    <li className="list-item">Unbiased and Fair Evaluation</li>
-                  </ul>
+                      <li className="list-item">
+                        Account Process and Outcome Objectively
+                      </li>
+                      <li className="list-item">
+                        Unbiased and Fair Evaluation
+                      </li>
+                    </ul>
+                  )}
                 </div>
               </div>
             </div>
@@ -100,9 +111,13 @@ function EnterUnberry() {
               <img alt="" src={enter2} className="image" />
             </div>
 
-            <div className="button-section">
-              <button className="more-detail" onClick={onClick}>View More</button>
-            </div>
+            {!isOpened && (
+              <div className="button-section">
+                <button className="more-detail" onClick={toggle}>
+                  View More
+                </button>
+              </div>
+            )}
           </div>
 
           <div className="row align-items-center">
@@ -118,19 +133,20 @@ function EnterUnberry() {
                     real-world outcomes, all based on neuroscience and
                     psychology principles.
                   </p>
+                  {isOpened && (
+                    <ul className="list-section">
+                      <li className="list-item">
+                        New Age Traits for High Performing Workplaces
+                      </li>
 
-                  <ul className="list-section">
-                    <li className="list-item">
-                      New Age Traits for High Performing Workplaces
-                    </li>
-
-                    <li className="list-item">
-                      Candid Observations and Normative Reports
-                    </li>
-                    <li className="list-item">
-                      Decode and Hire basis DNA of Existing Teams
-                    </li>
-                  </ul>
+                      <li className="list-item">
+                        Candid Observations and Normative Reports
+                      </li>
+                      <li className="list-item">
+                        Decode and Hire basis DNA of Existing Teams
+                      </li>
+                    </ul>
+                  )}
                 </div>
               </div>
             </div>
@@ -138,9 +154,13 @@ function EnterUnberry() {
               <img alt="" src={enter3} className="image" />
             </div>
 
-            <div className="button-section">
-              <button className="more-detail" onClick={onClick}>View More</button>
-            </div>
+            {!isOpened && (
+              <div className="button-section">
+                <button className="more-detail" onClick={toggle}>
+                  View More
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 // Images
 import {useState} from "react";
 import logo from "../../../assets/images/logo/logo.svg";
-import enter1 from "../../../assets/images/portfolio/enter1.svg";
+import enter1 from "../../../assets/images/portfolio/enter1.png";
 import enter2 from "../../../assets/images/portfolio/enter2.svg";
 import enter3 from "../../../assets/images/portfolio/enter3.svg";
 import shape1 from "../../../assets/images/shapes/b1.svg";

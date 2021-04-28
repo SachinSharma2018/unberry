@@ -108,13 +108,13 @@
       margin-left: 10px;
     }
 
-    &.previous {
-      display: none;
-    }
-
     svg {
       fill: white;
       width: 16px;
     }
+  }
+
+  .flickity-prev-next-button:disabled {
+    opacity: 0.4;
   }
 }

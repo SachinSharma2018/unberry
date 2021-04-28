@@ -16,7 +16,6 @@ function UnberryWorks() {
     prevNextButtons: media.matches ? false : true,
     pageDots: false,
     draggable: media.matches ? false : true,
-    wrapAround: media.matches ? false : true,
   };
 
   const infoBoxes = [

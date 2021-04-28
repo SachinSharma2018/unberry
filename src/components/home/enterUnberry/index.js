@@ -1,10 +1,9 @@
-import {Link} from "react-router-dom";
+// Images
+import { useState } from "react";
 import logo from "../../../assets/images/logo/logo.svg";
-
 import enter1 from "../../../assets/images/portfolio/enter1.svg";
 import enter2 from "../../../assets/images/portfolio/enter2.svg";
 import enter3 from "../../../assets/images/portfolio/enter3.svg";
-
 import shape1 from "../../../assets/images/shapes/b1.svg";
 import shape2 from "../../../assets/images/shapes/b2.svg";
 import shape3 from "../../../assets/images/shapes/b3.svg";
@@ -12,6 +11,8 @@ import shape3 from "../../../assets/images/shapes/b3.svg";
 import "./styles.scss";
 
 function EnterUnberry() {
+  const [showResults, setShowResults] = useState(false);
+  const onClick = () => setShowResults(true);
   return (
     <section className="enter-unberry-style">
       <div className="container">
@@ -21,8 +22,8 @@ function EnterUnberry() {
               Enter <img alt="" src={logo} className="logo" />
             </h4>
             <p className="description">
-              Revolutionising Candidate Assessment Through Game <br/> Technology and
-              Neuroscience
+              Revolutionising Candidate Assessment Through Game <br />{" "}
+              Technology and Neuroscience
             </p>
           </div>
         </div>
@@ -41,25 +42,30 @@ function EnterUnberry() {
                     predict job performance; experience and personality tests
                     are the worst.”
                   </p>
+                  {showResults ? (
+                    <ul className="list-section">
+                      <li className="list-item">
+                        Dynamic Scenarios doing Multi-Trait Analysis
+                      </li>
 
-                  <ul className="list-section">
-                    <li className="list-item">
-                      Dynamic Scenarios doing Multi-Trait Analysis
-                    </li>
-
-                    <li className="list-item">
-                      Real-time Decisions and Authentic Responses
-                    </li>
-                    <li className="list-item">
-                      Beyond Self-Reported Data and Consciously Constructed
-                      Behaviors
-                    </li>
-                  </ul>
+                      <li className="list-item">
+                        Real-time Decisions and Authentic Responses
+                      </li>
+                      <li className="list-item">
+                        Beyond Self-Reported Data and Consciously Constructed
+                        Behaviors
+                      </li>
+                    </ul>
+                  ) : null}
                 </div>
               </div>
             </div>
             <div className="col-sm-6">
               <img alt="" src={enter1} className="image" />
+            </div>
+
+            <div className="button-section">
+              <button className="more-detail" onClick={onClick}>View More</button>
             </div>
           </div>
 
@@ -93,6 +99,10 @@ function EnterUnberry() {
             <div className="col-sm-6">
               <img alt="" src={enter2} className="image" />
             </div>
+
+            <div className="button-section">
+              <button className="more-detail" onClick={onClick}>View More</button>
+            </div>
           </div>
 
           <div className="row align-items-center">
@@ -101,7 +111,7 @@ function EnterUnberry() {
                 <img alt="" src={shape3} className="shape-img-style" />
                 <div className="info">
                   <h4 className="title4">
-                    Neuroscience & Psychology <br/> Based Reports
+                    Neuroscience & Psychology <br /> Based Reports
                   </h4>
                   <p className="description o-7">
                     Unberry reports Cognitive and Personality traits to predict
@@ -126,6 +136,10 @@ function EnterUnberry() {
             </div>
             <div className="col-sm-6">
               <img alt="" src={enter3} className="image" />
+            </div>
+
+            <div className="button-section">
+              <button className="more-detail" onClick={onClick}>View More</button>
             </div>
           </div>
         </div>

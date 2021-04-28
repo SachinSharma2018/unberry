@@ -1,7 +1,9 @@
+import Flickity from "react-flickity-component";
+
+// Images
 import shape1 from "../../../assets/images/shapes/c1.svg";
 import shape2 from "../../../assets/images/shapes/c2.svg";
 import shape3 from "../../../assets/images/shapes/c3.svg";
-import Flickity from "react-flickity-component";
 
 import "./styles.scss";
 
@@ -9,11 +11,12 @@ function UnberryWorks() {
   const media = window.matchMedia(`(min-width: 768px)`);
 
   const flickityOptions = {
-    freeScroll: true,
+    freeScroll: media.matches ? false : true,
     contain: true,
     prevNextButtons: media.matches ? false : true,
     pageDots: false,
-    wrapAround: true,
+    draggable: media.matches ? false : true,
+    wrapAround: media.matches ? false : true,
   };
 
   const infoBoxes = [
@@ -57,7 +60,6 @@ function UnberryWorks() {
               className={"carousel outline-none worksSlider"}
               elementType={"div"}
               options={flickityOptions}
-              disableImagesLoaded={false}
             >
               {infoBoxes.map((data, index) => {
                 return (

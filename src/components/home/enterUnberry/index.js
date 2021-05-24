@@ -15,7 +15,16 @@ import "./styles.scss";
 
 function EnterUnberry() {
   useEffect(() => {
-    document.getElementById("enterVideo1").play();
+    var vid = document.querySelector(".video-banner");
+    vid.className = "video-banner loading";
+    document
+      .getElementById("team-video")
+      .addEventListener("loadstart", () => {});
+    document
+      .getElementById("team-video")
+      .addEventListener("canplaythrough", () => {
+        vid.className = "video-banner";
+      });
   }, []);
 
   return (
@@ -64,8 +73,8 @@ function EnterUnberry() {
               </div>
             </div>
             <div className="col-sm-6">
-              <div className="video-frame">
-                <video autoplay muted loop id="enterVideo1">
+              <div className="video-banner">
+                <video playsInline autoPlay muted loop id="team-video">
                   <source src={videoSource} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>

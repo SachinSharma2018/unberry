@@ -90,7 +90,16 @@ function RapidlyEvolving(props) {
   }, [height3, height2, offset]);
 
   useEffect(() => {
-    document.getElementById("vid").play();
+    var vid = document.querySelector(".video-banner");
+    vid.className = "video-banner loading";
+    document
+      .getElementById("team-video")
+      .addEventListener("loadstart", () => {});
+    document
+      .getElementById("team-video")
+      .addEventListener("canplaythrough", () => {
+        vid.className = "video-banner";
+      });
   }, [videoSource]);
 
   // const getHeight=(index)=>{​​
@@ -155,7 +164,7 @@ function RapidlyEvolving(props) {
             </div>
             <div className="col-sm-6 order-mobile2">
               <div className="videoAnimation">
-                <video autoplay muted id="vid" loop key={videoSource}>
+                <video playsInline autoPlay muted loop key={videoSource} id="rapidlyVideo">
                   <source src={videoSource} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>

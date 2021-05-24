@@ -52,15 +52,6 @@
     }
   }
 
-  // video-frame
-  .video-frame {
-
-    video {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
   .timeline-style {
     .description {
       max-width: 75%;
@@ -185,4 +176,16 @@
       text-transform: uppercase;
     }
   }
+
+    // video-frame
+    .video-banner {
+      width: 100%;
+      height: 100%;
+      position: relative;
+  
+      video {
+        width: 100%;
+        height: 100%;
+      }
+    }
 }

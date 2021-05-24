@@ -50,7 +50,7 @@ function FooterPrimary() {
               <img src={logoImage} className="footer-logo" alt="" />
             </div>
             <div className="col-sm-6 text-right">
-              © All rights reserved by Unberry 2021
+              © Copyright 2021. UNBERRY. All Rights Reserved.
             </div>
           </div>
         </div>

@@ -117,4 +117,12 @@
   .flickity-prev-next-button:disabled {
     opacity: 0.4;
   }
+
+
+  .animation-file {
+
+    @include mobile {
+      transform: scale(1.8);
+    }
+  }
 }

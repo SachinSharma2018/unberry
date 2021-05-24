@@ -74,16 +74,18 @@ function UnberryWorks() {
                         <h4 className="title4">{data.title}</h4>
                         <p className="description">{data.description}</p>
                       </div>
-                      <Lottie
-                        options={{
-                          animationData: data.jsonUrl,
-                          loop: true,
-                          autoplay: true,
-                          rendererSettings: {
-                            preserveAspectRatio: "xMidYMid slice",
-                          },
-                        }}
-                      />
+                      <div className="animation-file">
+                        <Lottie
+                          options={{
+                            animationData: data.jsonUrl,
+                            loop: true,
+                            autoplay: true,
+                            rendererSettings: {
+                              preserveAspectRatio: "xMidYMid slice",
+                            },
+                          }}
+                        />
+                      </div>
                     </div>
                   </div>
                 );

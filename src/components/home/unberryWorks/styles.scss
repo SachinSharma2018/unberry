@@ -121,10 +121,25 @@
   }
 
 
-  .animation-file {
+  .scale-box {
+    height: 300px;
+    width: 100%;
 
     @include mobile {
-      transform: scale(1.8);
+      height: 200px;
     }
+
+  }
+  .animation-file {
+    transform: scale(1.4);
+
+    @include mobile {
+      transform: scale(2);
+    }
+  }
+
+  .info {
+    min-height: 230px;
+    overflow: hidden;
   }
 }

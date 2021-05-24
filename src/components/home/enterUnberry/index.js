@@ -1,6 +1,6 @@
+import {useEffect} from "react";
 // Images
 import logo from "../../../assets/images/logo/logo.svg";
-import enter1 from "../../../assets/images/portfolio/enter1.png";
 import shape1 from "../../../assets/images/shapes/b1.svg";
 import shape2 from "../../../assets/images/shapes/b2.svg";
 import shape3 from "../../../assets/images/shapes/b3.svg";
@@ -9,10 +9,14 @@ import shape3 from "../../../assets/images/shapes/b3.svg";
 import Lottie from "react-lottie";
 import animationShape2 from "../../../assets/json/data-science.json";
 import animationShape3 from "../../../assets/json/psychology.json";
+import videoSource from "../../../assets/videos/game-based.mp4";
 
 import "./styles.scss";
 
 function EnterUnberry() {
+  useEffect(() => {
+    document.getElementById("enterVideo1").play();
+  }, []);
 
   return (
     <section className="enter-unberry-style">
@@ -23,7 +27,7 @@ function EnterUnberry() {
               Enter <img alt="" src={logo} className="logo" />
             </h4>
             <p className="description">
-              Revolutionising Candidate Assessment Through Game <br />{" "}
+              Revolutionising Candidate Assessment Through Game <br />
               Technology and Neuroscience
             </p>
           </div>
@@ -60,16 +64,12 @@ function EnterUnberry() {
               </div>
             </div>
             <div className="col-sm-6">
-            <Lottie
-                options={{
-                  animationData: animationShape2,
-                  loop: true,
-                  autoplay: true,
-                  rendererSettings: {
-                    preserveAspectRatio: "xMidYMid slice",
-                  },
-                }}
-              />
+              <div className="video-frame">
+                <video autoplay muted loop id="enterVideo1">
+                  <source src={videoSource} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
             </div>
           </div>
 

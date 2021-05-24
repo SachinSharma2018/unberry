@@ -57,7 +57,7 @@ function RapidlyEvolving(props) {
 
     let heightVal;
     if (offset && height <= 100) {
-      heightVal = setInterval(() => setHeight(height + 5), 320);
+      heightVal = setInterval(() => setHeight(height + 10), 320);
     }
     elmntItem.classList.add("timeline-active");
     return () => clearInterval(heightVal);
@@ -81,7 +81,7 @@ function RapidlyEvolving(props) {
     var elmnt = document.getElementById("item3");
     let heightVal3;
     if (height2 >= 100 && height3 <= 100) {
-      heightVal3 = setInterval(() => setHeight3(height3 + 5), 300);
+      heightVal3 = setInterval(() => setHeight3(height3 + 10), 300);
       elmnt?.classList.add("timeline-active");
       setVideoSource(video3);
       setTimeline(timelineData[2]);

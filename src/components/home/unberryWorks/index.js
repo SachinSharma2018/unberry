@@ -1,14 +1,10 @@
 import Flickity from "react-flickity-component";
 
-// Images
-// import shape1 from "../../../assets/images/shapes/c1.svg";
-// import shape2 from "../../../assets/images/shapes/c2.svg";
-import shape3 from "../../../assets/images/shapes/c3.svg";
-
 // Lottie
 import Lottie from "react-lottie";
 import shape1 from "../../../assets/json/step1.json";
 import shape2 from "../../../assets/json/step2.json";
+import shape3 from "../../../assets/json/step3.json";
 
 import "./styles.scss";
 
@@ -44,7 +40,7 @@ function UnberryWorks() {
       title: "You get detailed reports with relevant, predictive insights.",
       description: `With insights around multi-level traits, make data-driven
       probes during hiring and more informed & faster decisions`,
-      jsonUrl: shape1,
+      jsonUrl: shape3,
     },
   ];
   return (
@@ -74,6 +70,7 @@ function UnberryWorks() {
                         <h4 className="title4">{data.title}</h4>
                         <p className="description">{data.description}</p>
                       </div>
+                      <div className="scale-box">
                       <div className="animation-file">
                         <Lottie
                           options={{
@@ -85,6 +82,7 @@ function UnberryWorks() {
                             },
                           }}
                         />
+                        </div>
                       </div>
                     </div>
                   </div>

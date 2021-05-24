@@ -3,7 +3,7 @@ import "./styles.scss";
 
 function HiringBox() {
   return (
-    <section className="hiring-section">
+    <section className="hiring-section" id="hiring">
       <div className="content-box">
         <h1 className="title2">Take the Guesswork out...</h1>
         <p className="description o-7 mt--15">

@@ -16,7 +16,7 @@ function TopHeader() {
             </Link>
           </div>
           <div className="col-sm-6 col-6 text-right">
-            <ButtonOutline title="Book Demo"/>
+            <a href="#hiring"><ButtonOutline title="Book Demo" /></a>
           </div>
         </div>
       </div>

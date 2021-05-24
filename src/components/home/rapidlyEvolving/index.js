@@ -1,12 +1,6 @@
 import {useEffect, useState} from "react";
 import VerticalProgress from "../../verticalProgress";
 
-// Scrollmagic and Gsap
-import {TweenMax, TimelineMax} from "gsap";
-import * as ScrollMagic from "scrollmagic";
-import {ScrollMagicPluginGsap} from "scrollmagic-plugin-gsap";
-import {ScrollMagicPluginIndicator} from "scrollmagic-plugins";
-
 // Video Files
 import video1 from "../../../assets/videos/hiring1.mp4";
 import video2 from "../../../assets/videos/hiring2.mp4";
@@ -14,7 +8,7 @@ import video3 from "../../../assets/videos/hiring3.mp4";
 
 import "./styles.scss";
 
-function RapidlyEvolving() {
+function RapidlyEvolving(props) {
   const [height, setHeight] = useState(0);
   const [height2, setHeight2] = useState(0);
   const [height3, setHeight3] = useState(0);
@@ -47,25 +41,6 @@ function RapidlyEvolving() {
   const [videoSource, setVideoSource] = useState(video1);
   const [timeline, setTimeline] = useState(timelineData[0]);
 
-  useEffect(() => {
-    ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
-    ScrollMagicPluginIndicator(ScrollMagic);
-
-    const media = window.matchMedia(`(min-width: 768px)`);
-
-    if (media.matches) {
-      var introAnimationcontroller = new ScrollMagic.Controller();
-      var pinSceneIntro = new ScrollMagic.Scene({
-        triggerElement: "#triggerSection",
-        triggerHook: 0.02,
-        duration: "100%",
-      })
-        .setPin("#triggerSection")
-        // .addIndicators()
-        .addTo(introAnimationcontroller);
-    }
-  }, []);
-
   // Step One
   useEffect(() => {
     window.onscroll = () => {
@@ -93,7 +68,7 @@ function RapidlyEvolving() {
     var elmnt = document.getElementById("item2");
     let heightVal2;
     if (height >= 100 && height2 <= 100) {
-      heightVal2 = setInterval(() => setHeight2(height2 + 5), 120);
+      heightVal2 = setInterval(() => setHeight2(height2 + 3), 120);
       elmnt?.classList.add("timeline-active");
       setVideoSource(video2);
       setTimeline(timelineData[1]);

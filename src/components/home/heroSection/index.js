@@ -5,7 +5,7 @@ import downArrow from "../../../assets/images/down-arrow.svg";
 
 import "./styles.scss";
 
-function HeroSection() {
+function HeroSection(props) {
   return (
     <section className="hero-section">
       <div className="container">
@@ -21,10 +21,10 @@ function HeroSection() {
               retain and develop talent.
             </p>
 
-            <button className="arrow-icon-btn">
+            <a href="#myDIV" className="arrow-icon-btn">
               <span> How it works</span>
               <img alt="" src={downArrow} />
-            </button>
+            </a>
           </div>
         </div>
       </div>

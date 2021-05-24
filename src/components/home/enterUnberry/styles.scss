@@ -30,25 +30,25 @@
   }
 
   .logo {
-    width: 135px;
-  }
-
-  .description {
-    color: $white;
+    width: 145px;
   }
 
   .title2 {
     margin-bottom: 10px;
     text-align: center;
     color: $white;
-    font-size: 38px;
+    font-size: 45px;
+  }
+
+  .description {
+    color: $white;
+    font-size: 18px;
   }
 
   .timeline-style {
     .description {
       max-width: 75%;
       margin: 20px 0;
-      font-size: 18px;
 
       @include mobile {
         max-width: 100%;
@@ -114,7 +114,8 @@
     li {
       margin-bottom: 20px;
       opacity: 0.7;
-      max-width: 55%;
+      max-width: 65%;
+      font-size: 18px;
       display: flex;
       align-items: flex-start;
 
@@ -128,10 +129,10 @@
         background: url("../../../assets/images/shapes/cube.svg");
         background-repeat: no-repeat;
         background-position: center;
-        width: 20px;
+        min-width: 20px;
         height: 20px;
         margin-right: 20px;
-        margin-top: 4px;
+        margin-top: 3px;
       }
     }
   }

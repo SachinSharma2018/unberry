@@ -60,7 +60,16 @@ function EnterUnberry() {
               </div>
             </div>
             <div className="col-sm-6">
-              <img alt="" src={enter1} className="image" />
+            <Lottie
+                options={{
+                  animationData: animationShape2,
+                  loop: true,
+                  autoplay: true,
+                  rendererSettings: {
+                    preserveAspectRatio: "xMidYMid slice",
+                  },
+                }}
+              />
             </div>
           </div>
 

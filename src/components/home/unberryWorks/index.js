@@ -48,9 +48,9 @@ function UnberryWorks() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <h4 className="title2">
+            <h3 className="title2">
               Here's How Unberry Works. <br /> It’s simply a game changer
-            </h4>
+            </h3>
           </div>
         </div>
 

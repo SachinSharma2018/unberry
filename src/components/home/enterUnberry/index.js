@@ -1,6 +1,6 @@
 import {useEffect} from "react";
 // Images
-import logo from "../../../assets/images/logo/logo.svg";
+import logo from "../../../assets/images/logo/hiring-with-game-based-assessments.svg";
 import shape1 from "../../../assets/images/shapes/b1.svg";
 import shape2 from "../../../assets/images/shapes/b2.svg";
 import shape3 from "../../../assets/images/shapes/b3.svg";
@@ -48,9 +48,9 @@ function EnterUnberry() {
               <div className="info-sec">
                 <img alt="" src={shape1} className="shape-img-style" />
                 <div className="info">
-                  <h4 className="title4">
+                  <h2 className="title4">
                     Game Based <br /> Assessments
-                  </h4>
+                  </h2>
                   <p className="description o-7">
                     “Research says multi-measure tests are the best way to
                     predict job performance; experience and personality tests
@@ -87,9 +87,9 @@ function EnterUnberry() {
               <div className="info-sec">
                 <img alt="" src={shape2} className="shape-img-style" />
                 <div className="info">
-                  <h4 className="title4">
+                  <h2 className="title4">
                     Data Science backed <br /> Evaluation
-                  </h4>
+                  </h2>
                   <p className="description o-7">
                     “When it comes to choosing a candidate, traditional
                     interviews are as much use as flipping a coin - Professor,
@@ -127,9 +127,9 @@ function EnterUnberry() {
               <div className="info-sec">
                 <img alt="" src={shape3} className="shape-img-style" />
                 <div className="info">
-                  <h4 className="title4">
+                  <h2 className="title4">
                     Neuroscience & Psychology <br /> Based Reports
-                  </h4>
+                  </h2>
                   <p className="description o-7">
                     Unberry reports Cognitive and Personality traits to predict
                     real-world outcomes, all based on neuroscience and

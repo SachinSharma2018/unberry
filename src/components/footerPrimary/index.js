@@ -1,6 +1,4 @@
-import {Link} from "react-router-dom";
-import logoImage from "../../assets/images/logo/logo.svg";
-import heart from "../../assets/images/heart.svg";
+import logoImage from "../../assets/images/logo/hiring-with-game-based-assessments.svg";
 
 // styles
 import "./styles.scss";

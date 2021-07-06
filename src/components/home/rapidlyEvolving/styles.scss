@@ -3,7 +3,7 @@
 @import "../../../styles/variables/mixins";
 
 .rapidly-evolving-style {
-  background-color: $white;
+  // background-color: $white;
   padding: 200px 0 200px;
   position: relative;
 
@@ -28,14 +28,20 @@
 
   .title2 {
     max-width: 70%;
+    color: $white;
     @include mobile {
       max-width: 100%;
     }
   }
 
+  .title4 {
+    color: $white;
+  }
+
   .description {
     max-width: 90%;
     margin-top: 10px;
+    color: $white;
 
     @include mobile {
       max-width: 100%;

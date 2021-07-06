@@ -3,7 +3,7 @@
 @import "../../../styles/variables/mixins";
 
 .unberry-works-style {
-  background-color: $white;
+  // background-color: $white;
   padding: 80px 0;
   position: relative;
   min-height: 100vh;
@@ -28,6 +28,7 @@
   .title2 {
     margin-bottom: 37px;
     text-align: center;
+    color: $white;
 
     @include mobile {
       font-size: 2rem;
@@ -44,16 +45,19 @@
     font-weight: 600;
     margin: 10px 0;
     max-width: 90%;
+    color: $white;
   }
 
   .number {
     font-size: 18px;
     font-weight: 600;
+    color: $theme-purple;
   }
 
   .description {
     font-size: 18px;
     max-width: 90%;
+    color: $white;
   }
 
   .col-sec {
@@ -61,7 +65,7 @@
     margin-right: 20px;
     padding: 10px;
     position: relative;
-    border-right: 1px dotted $black;
+    border-right: 1px dotted #979797;
 
     @include mobile {
       width: 90%;

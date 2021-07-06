@@ -8,7 +8,7 @@
 
 // custom css
 * {
-  font-family: 'Roobert', sans-serif !important;
+  font-family: 'Inter', sans-serif !important;
 }
 
 *,
@@ -25,6 +25,7 @@ body {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $theme-secondary;
 }
 
 #root {
@@ -43,6 +44,7 @@ body {
 .title5,
 .title6 {
   margin: 0;
+  font-weight: 800;
 }
 
 .title1 {

@@ -7,10 +7,10 @@
   display: flex;
   align-items: center;
   z-index: 1;
-  background-color: $white;
+  // background-color: $white;
   width: 100%;
   min-height: 400px;
-  background-image: url('../../../assets/images/line-pattern.svg');
+  background-image: url("../../../assets/images/line-pattern.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -31,11 +31,15 @@
     background: url("../../../assets/images/bg/bg4.svg") no-repeat;
     background-size: contain;
 
+    @include desktop-lg {
+      left: 110px;
+    }
+
     @include mobile {
       top: 40px;
       background-size: cover;
       background-position: top;
-      background: url('../../../assets/images/bg/mobile-bg1.svg') no-repeat;
+      background: url("../../../assets/images/bg/mobile-bg1.svg") no-repeat;
     }
   }
 
@@ -45,9 +49,13 @@
     left: 240px;
     width: 180px;
     height: 220px;
-    background: url('../../../assets/images/shapes/f1.svg');
+    background: url("../../../assets/images/shapes/f1.svg");
     background-repeat: no-repeat;
     transform: scale(0.7);
+
+    @include desktop-lg {
+      left: 370px;
+    }
 
     @include mobile {
       left: -52px;
@@ -60,9 +68,13 @@
     right: 320px;
     width: 210px;
     height: 150px;
-    background: url('../../../assets/images/shapes/f2.svg');
+    background: url("../../../assets/images/shapes/f2.svg");
     background-repeat: no-repeat;
     transform: scale(0.7);
+
+    @include desktop-lg {
+      right: 410px;
+    }
 
     @include mobile {
       right: -59px;
@@ -116,6 +128,10 @@
     right: 0;
     bottom: -130px;
 
+    @include desktop-lg {
+      max-width: 60%;
+    }
+
     @include mobile {
       max-width: 90%;
       padding: 40px 20px;
@@ -132,7 +148,7 @@
         font-weight: 600;
       }
     }
-  
+
     .description {
       color: $white;
       max-width: 80%;
@@ -143,7 +159,6 @@
     }
 
     .input-box-style .form-input {
-
       @include mobile {
         height: 45px;
       }
@@ -180,7 +195,6 @@
       }
 
       .input-box-style {
-
         @include mobile {
           margin-bottom: 30px;
         }

@@ -4,6 +4,7 @@
 
 .input-box-style {
   width: 100%;
+  position: relative;
 
   .form-input {
     min-height: 38px;
@@ -20,4 +21,11 @@
     }
   }
 
+
+  .input-icon {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 15px;
+  }
 }

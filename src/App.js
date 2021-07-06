@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import { useEffect } from "react";
 import AppRouter from "./AppRouter";
 import AOS from "aos";
 import "aos/dist/aos.css";

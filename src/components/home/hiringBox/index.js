@@ -1,7 +1,29 @@
+import { useState } from "react";
 import InputPrimary from "../../inputPrimary";
+import checked from "../../../assets/images/checked.svg"
 import "./styles.scss";
 
 function HiringBox() {
+  const [email, setEmail] = useState("");
+  const [valid, setValid] = useState("");
+
+  function validateEmail(email) {
+    const re =
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+  }
+
+  function emailSubmit(email) {
+    if (validateEmail(email)) {
+      window.dataLayer.push({
+        email: email,
+        event: "notificationDemo",
+      });
+
+      setEmail("");
+      setValid(false);
+    }
+  }
   return (
     <section className="hiring-section" id="hiring">
       <div className="content-box">
@@ -12,8 +34,19 @@ function HiringBox() {
           of hiring.
         </p>
         <div className="newsletter-section">
-          <InputPrimary placeholder="hereisme@myofficalmail.com" />
-          <button className="started-btn">Get started</button>
+          <InputPrimary placeholder="hereisme@myofficalmail.com" 
+          icon={valid ? checked : null}
+            onChange={(e) => {
+              validateEmail(e.target.value)
+                ? setValid(true)
+                : setValid(false);
+
+              setEmail(e.target.value);
+            }}
+            value={email} />
+          <button className="started-btn" onClick={() => {
+            emailSubmit(email);
+          }}>Get started</button>
         </div>
       </div>
       <div className="shape1" />

@@ -10,6 +10,8 @@ function InputPrimary(props) {
         onChange={props.onChange}
         placeholder={props.placeholder}
       />
+
+      {props.icon && <img src={props.icon} className="input-icon" alt="" />}
     </div>
   );
 }

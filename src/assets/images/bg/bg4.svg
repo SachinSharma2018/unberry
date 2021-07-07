@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1735px" height="416px" viewBox="0 0 1735 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1734px" height="416px" viewBox="0 0 1734 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
-    <title>Group 2</title>
+    <title>bg4</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <polygon id="path-1" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
@@ -19,7 +19,7 @@
         <polygon id="path-25" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
         <polygon id="path-27" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
         <polygon id="path-29" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
-        <polygon id="path-31" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
+        <polygon id="path-31" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0 15.5389427 -2.97539771e-14"></polygon>
         <polygon id="path-33" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
         <polygon id="path-35" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
         <polygon id="path-37" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
@@ -27,7 +27,7 @@
         <polygon id="path-41" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
         <polygon id="path-43" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
         <polygon id="path-45" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
-        <polygon id="path-47" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0"></polygon>
+        <polygon id="path-47" points="50.92 0 67.67 16.08 67.67 67 16.75 67 0 50.92 0 0 15.5389427 -2.97539771e-14"></polygon>
         <polygon id="path-49" points="48.6421 0.328 48.4485 0.284 48.2754 0.381 0.9021 26.957 0.4338 27.22 0.7155 27.677 29.3972 74.219 29.509 74.401 29.7163 74.45 52.9515 79.994 53.1697 80.046 53.3565 79.922 95.563 51.856 95.945 51.602 95.737 51.193 72.765 6.019 72.655 5.803 72.42 5.75"></polygon>
         <polygon id="path-51" points="48.3501 0.4613 48.1565 0.4172 47.9834 0.5143 0.6101 27.09 0.1418 27.3528 0.4235 27.8099 29.1052 74.353 29.217 74.534 29.4243 74.583 52.6595 80.127 52.8777 80.179 53.0645 80.055 95.271 51.989 95.653 51.735 95.445 51.326 72.4726 6.1517 72.3632 5.9365 72.1278 5.8828"></polygon>
         <polygon id="path-53" points="48.4829 0.7533 48.2893 0.7091 48.1162 0.8063 0.743 27.382 0.2746 27.645 0.5563 28.102 29.23797 74.644 29.3498 74.826 29.55713 74.875 52.7923 80.419 53.0105 80.471 53.1973 80.347 95.4038 52.281 95.7858 52.027 95.5779 51.618 72.6055 6.4437 72.496 6.2285 72.2606 6.1748"></polygon>
@@ -42,8 +42,8 @@
         <polygon id="path-71" points="48.8527 0.6902 48.6586 0.6485 48.4867 0.7479 1.45792 27.9285 0.992983 28.1972 1.28054 28.6508 30.5563 74.822 30.6704 75.002 30.8783 75.049 54.1827 80.295 54.4015 80.344 54.5867 80.217 96.4301 51.6123 96.8087 51.3535 96.5956 50.9473 73.0462 6.071 72.934 5.8572 72.6979 5.8065"></polygon>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-2" transform="translate(-1.000000, 0.000000)">
-            <g id="bg4" transform="translate(473.000000, 3.000000)">
+        <g id="bg4" transform="translate(-1.000000, 0.000000)">
+            <g transform="translate(473.000000, 3.000000)">
                 <g id="Group-10-Copy-12" transform="translate(987.961524, 339.161388) rotate(-30.000000) translate(-987.961524, -339.161388) translate(926.961524, 254.161388)">
                     <g id="Group">
                         <g id="Group-4-Copy">
@@ -51,18 +51,22 @@
                                 <g id="Group">
                                     <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                     <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                        <mask id="mask-2" fill="white">
-                                            <use xlink:href="#path-1"></use>
-                                        </mask>
-                                        <g id="path-9"></g>
-                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                        <g>
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <g id="path-1"></g>
+                                            <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                        </g>
                                     </g>
                                     <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                        <mask id="mask-4" fill="white">
-                                            <use xlink:href="#path-3"></use>
-                                        </mask>
-                                        <g id="path-9"></g>
-                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-4)"></line>
+                                        <g>
+                                            <mask id="mask-4" fill="white">
+                                                <use xlink:href="#path-3"></use>
+                                            </mask>
+                                            <g id="path-3"></g>
+                                            <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-4)"></line>
+                                        </g>
                                     </g>
                                 </g>
                             </g>
@@ -70,18 +74,22 @@
                                 <g id="Group">
                                     <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                     <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                        <mask id="mask-6" fill="white">
-                                            <use xlink:href="#path-5"></use>
-                                        </mask>
-                                        <g id="path-11"></g>
-                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-6)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                        <g>
+                                            <mask id="mask-6" fill="white">
+                                                <use xlink:href="#path-5"></use>
+                                            </mask>
+                                            <g id="path-5"></g>
+                                            <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-6)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                        </g>
                                     </g>
                                     <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                        <mask id="mask-8" fill="white">
-                                            <use xlink:href="#path-7"></use>
-                                        </mask>
-                                        <g id="path-11"></g>
-                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-8)"></line>
+                                        <g>
+                                            <mask id="mask-8" fill="white">
+                                                <use xlink:href="#path-7"></use>
+                                            </mask>
+                                            <g id="path-7"></g>
+                                            <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-8)"></line>
+                                        </g>
                                     </g>
                                 </g>
                             </g>
@@ -89,18 +97,22 @@
                                 <g id="Group">
                                     <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                     <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                        <mask id="mask-10" fill="white">
-                                            <use xlink:href="#path-9"></use>
-                                        </mask>
-                                        <g id="path-13"></g>
-                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-10)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                        <g>
+                                            <mask id="mask-10" fill="white">
+                                                <use xlink:href="#path-9"></use>
+                                            </mask>
+                                            <g id="path-9"></g>
+                                            <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-10)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                        </g>
                                     </g>
                                     <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                        <mask id="mask-12" fill="white">
-                                            <use xlink:href="#path-11"></use>
-                                        </mask>
-                                        <g id="path-13"></g>
-                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-12)"></line>
+                                        <g>
+                                            <mask id="mask-12" fill="white">
+                                                <use xlink:href="#path-11"></use>
+                                            </mask>
+                                            <g id="path-11"></g>
+                                            <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-12)"></line>
+                                        </g>
                                     </g>
                                 </g>
                             </g>
@@ -108,18 +120,22 @@
                                 <g id="Group">
                                     <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                     <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                        <mask id="mask-14" fill="white">
-                                            <use xlink:href="#path-13"></use>
-                                        </mask>
-                                        <g id="path-15"></g>
-                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-14)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                        <g>
+                                            <mask id="mask-14" fill="white">
+                                                <use xlink:href="#path-13"></use>
+                                            </mask>
+                                            <g id="path-13"></g>
+                                            <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-14)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                        </g>
                                     </g>
                                     <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                        <mask id="mask-16" fill="white">
-                                            <use xlink:href="#path-15"></use>
-                                        </mask>
-                                        <g id="path-15"></g>
-                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-16)"></line>
+                                        <g>
+                                            <mask id="mask-16" fill="white">
+                                                <use xlink:href="#path-15"></use>
+                                            </mask>
+                                            <g id="path-15"></g>
+                                            <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-16)"></line>
+                                        </g>
                                     </g>
                                 </g>
                             </g>
@@ -130,157 +146,189 @@
                     <g id="Group-7">
                         <g id="Cube-3" transform="translate(52.000000, 51.000000)">
                             <g id="Group">
-                                <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
+                                <polygon id="Path" stroke="#000000" fill="#FFFFFF" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                 <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-18" fill="white">
-                                        <use xlink:href="#path-17"></use>
-                                    </mask>
-                                    <g id="path-25"></g>
-                                    <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-18)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    <g>
+                                        <mask id="mask-18" fill="white">
+                                            <use xlink:href="#path-17"></use>
+                                        </mask>
+                                        <g id="path-17"></g>
+                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-18)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    </g>
                                 </g>
                                 <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-20" fill="white">
-                                        <use xlink:href="#path-19"></use>
-                                    </mask>
-                                    <g id="path-25"></g>
-                                    <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-20)"></line>
+                                    <g>
+                                        <mask id="mask-20" fill="white">
+                                            <use xlink:href="#path-19"></use>
+                                        </mask>
+                                        <g id="path-19"></g>
+                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-20)"></line>
+                                    </g>
                                 </g>
                             </g>
                         </g>
                         <g id="Cube-3" transform="translate(104.000000, 0.000000)">
                             <g id="Group">
-                                <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
+                                <polygon id="Path" stroke="#000000" fill="#FFFFFF" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                 <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-22" fill="white">
-                                        <use xlink:href="#path-21"></use>
-                                    </mask>
-                                    <g id="path-27"></g>
-                                    <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-22)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    <g>
+                                        <mask id="mask-22" fill="white">
+                                            <use xlink:href="#path-21"></use>
+                                        </mask>
+                                        <g id="path-21"></g>
+                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-22)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    </g>
                                 </g>
                                 <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-24" fill="white">
-                                        <use xlink:href="#path-23"></use>
-                                    </mask>
-                                    <g id="path-27"></g>
-                                    <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-24)"></line>
+                                    <g>
+                                        <mask id="mask-24" fill="white">
+                                            <use xlink:href="#path-23"></use>
+                                        </mask>
+                                        <g id="path-23"></g>
+                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-24)"></line>
+                                    </g>
                                 </g>
                             </g>
                         </g>
                         <g id="Cube-3" transform="translate(52.000000, 0.000000)">
                             <g id="Group">
-                                <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
+                                <polygon id="Path" stroke="#000000" fill="#FFFFFF" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                 <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-26" fill="white">
-                                        <use xlink:href="#path-25"></use>
-                                    </mask>
-                                    <g id="path-29"></g>
-                                    <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-26)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    <g>
+                                        <mask id="mask-26" fill="white">
+                                            <use xlink:href="#path-25"></use>
+                                        </mask>
+                                        <g id="path-25"></g>
+                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-26)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    </g>
                                 </g>
                                 <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-28" fill="white">
-                                        <use xlink:href="#path-27"></use>
-                                    </mask>
-                                    <g id="path-29"></g>
-                                    <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-28)"></line>
+                                    <g>
+                                        <mask id="mask-28" fill="white">
+                                            <use xlink:href="#path-27"></use>
+                                        </mask>
+                                        <g id="path-27"></g>
+                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-28)"></line>
+                                    </g>
                                 </g>
                             </g>
                         </g>
                         <g id="Cube-3">
                             <g id="Group">
-                                <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
+                                <polygon id="Path" stroke="#000000" fill="#FFFFFF" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                 <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-30" fill="white">
-                                        <use xlink:href="#path-29"></use>
-                                    </mask>
-                                    <g id="path-31"></g>
-                                    <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-30)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    <g>
+                                        <mask id="mask-30" fill="white">
+                                            <use xlink:href="#path-29"></use>
+                                        </mask>
+                                        <g id="path-29"></g>
+                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-30)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    </g>
                                 </g>
                                 <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-32" fill="white">
-                                        <use xlink:href="#path-31"></use>
-                                    </mask>
-                                    <g id="path-31"></g>
-                                    <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-32)"></line>
+                                    <g>
+                                        <mask id="mask-32" fill="white">
+                                            <use xlink:href="#path-31"></use>
+                                        </mask>
+                                        <g id="path-31"></g>
+                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-32)"></line>
+                                    </g>
                                 </g>
                             </g>
                         </g>
                     </g>
                 </g>
-                <g id="Group-8-Copy-4" transform="translate(1166.060664, 183.963715) rotate(20.000000) translate(-1166.060664, -183.963715) translate(1079.060664, 123.963715)">
-                    <g id="Group-7">
+                <g id="Group-8-Copy" transform="translate(1165.043184, 188.419451) rotate(20.000000) translate(-1165.043184, -188.419451) translate(1077.543184, 127.919451)">
+                    <g id="Group-7" transform="translate(0.315960, 0.120615)">
                         <g id="Cube-3" transform="translate(52.000000, 51.000000)">
                             <g id="Group">
-                                <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
+                                <polygon id="Path" stroke="#000000" fill="#FFFFFF" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                 <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-34" fill="white">
-                                        <use xlink:href="#path-33"></use>
-                                    </mask>
-                                    <g id="path-33"></g>
-                                    <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-34)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    <g>
+                                        <mask id="mask-34" fill="white">
+                                            <use xlink:href="#path-33"></use>
+                                        </mask>
+                                        <g id="path-17"></g>
+                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-34)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    </g>
                                 </g>
                                 <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-36" fill="white">
-                                        <use xlink:href="#path-35"></use>
-                                    </mask>
-                                    <g id="path-33"></g>
-                                    <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-36)"></line>
+                                    <g>
+                                        <mask id="mask-36" fill="white">
+                                            <use xlink:href="#path-35"></use>
+                                        </mask>
+                                        <g id="path-19"></g>
+                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-36)"></line>
+                                    </g>
                                 </g>
                             </g>
                         </g>
                         <g id="Cube-3" transform="translate(104.000000, 0.000000)">
                             <g id="Group">
-                                <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
+                                <polygon id="Path" stroke="#000000" fill="#FFFFFF" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                 <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-38" fill="white">
-                                        <use xlink:href="#path-37"></use>
-                                    </mask>
-                                    <g id="path-35"></g>
-                                    <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-38)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    <g>
+                                        <mask id="mask-38" fill="white">
+                                            <use xlink:href="#path-37"></use>
+                                        </mask>
+                                        <g id="path-21"></g>
+                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-38)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    </g>
                                 </g>
                                 <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-40" fill="white">
-                                        <use xlink:href="#path-39"></use>
-                                    </mask>
-                                    <g id="path-35"></g>
-                                    <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-40)"></line>
+                                    <g>
+                                        <mask id="mask-40" fill="white">
+                                            <use xlink:href="#path-39"></use>
+                                        </mask>
+                                        <g id="path-23"></g>
+                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-40)"></line>
+                                    </g>
                                 </g>
                             </g>
                         </g>
                         <g id="Cube-3" transform="translate(52.000000, 0.000000)">
                             <g id="Group">
-                                <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
+                                <polygon id="Path" stroke="#000000" fill="#FFFFFF" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                 <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-42" fill="white">
-                                        <use xlink:href="#path-41"></use>
-                                    </mask>
-                                    <g id="path-37"></g>
-                                    <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-42)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    <g>
+                                        <mask id="mask-42" fill="white">
+                                            <use xlink:href="#path-41"></use>
+                                        </mask>
+                                        <g id="path-25"></g>
+                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-42)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    </g>
                                 </g>
                                 <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-44" fill="white">
-                                        <use xlink:href="#path-43"></use>
-                                    </mask>
-                                    <g id="path-37"></g>
-                                    <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-44)"></line>
+                                    <g>
+                                        <mask id="mask-44" fill="white">
+                                            <use xlink:href="#path-43"></use>
+                                        </mask>
+                                        <g id="path-27"></g>
+                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-44)"></line>
+                                    </g>
                                 </g>
                             </g>
                         </g>
                         <g id="Cube-3">
                             <g id="Group">
-                                <polygon id="Path" stroke="#000000" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
+                                <polygon id="Path" stroke="#000000" fill="#FFFFFF" points="69.17 16.8668911 69.17 68.5 17.5488449 68.5 0.5 52.1331089 0.5 0.5 52.1211551 0.5"></polygon>
                                 <g id="Path-Copy-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-46" fill="white">
-                                        <use xlink:href="#path-45"></use>
-                                    </mask>
-                                    <g id="path-39"></g>
-                                    <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-46)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    <g>
+                                        <mask id="mask-46" fill="white">
+                                            <use xlink:href="#path-45"></use>
+                                        </mask>
+                                        <g id="path-29"></g>
+                                        <polygon id="Path-Copy" stroke="#000000" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-46)" points="84.92 32.6168911 84.92 84.25 33.2988449 84.25 16.25 67.8831089 16.25 16.25 67.8711551 16.25"></polygon>
+                                    </g>
                                 </g>
                                 <g id="Path-Clipped" transform="translate(1.000000, 1.000000)">
-                                    <mask id="mask-48" fill="white">
-                                        <use xlink:href="#path-47"></use>
-                                    </mask>
-                                    <g id="path-39"></g>
-                                    <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-48)"></line>
+                                    <g>
+                                        <mask id="mask-48" fill="white">
+                                            <use xlink:href="#path-47"></use>
+                                        </mask>
+                                        <g id="path-31"></g>
+                                        <line x1="16.75" y1="16.75" x2="0" y2="0" id="Path" stroke="#000000" mask="url(#mask-48)"></line>
+                                    </g>
                                 </g>
                             </g>
                         </g>
@@ -290,103 +338,131 @@
             <g id="Group-87" transform="translate(0.000000, 172.000000)">
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#FFCA4B" fill-rule="nonzero" points="148.8544 68.814 148.6533 68.762 148.4721 68.863 101.6049 95.155 101.1554 95.407 101.4076 95.857 127.6994 142.724 127.8091 142.92 128.0269 142.973 151.6703 148.734 151.8675 148.782 152.0445 148.682 198.662 122.531 199.111 122.279 198.859 121.829 172.7 75.199 172.593 75.007 172.381 74.952"></polygon>
                 <g id="Clipped" transform="translate(100.000000, 68.000000)">
-                    <mask id="mask-50" fill="white">
-                        <use xlink:href="#path-49"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <g id="Group" mask="url(#mask-50)" stroke="#000000" stroke-width="1.0308">
-                        <g transform="translate(1.000000, 7.000000)" id="Path">
-                            <line x1="24.4927" y1="26.698" x2="0.4067" y2="20.857"></line>
-                            <line x1="71.425" y1="0.529" x2="24.1094" y2="27.072"></line>
+                    <g id="Group-Clipped">
+                        <mask id="mask-50" fill="white">
+                            <use xlink:href="#path-49"></use>
+                        </mask>
+                        <g id="path-49"></g>
+                        <g id="Group" mask="url(#mask-50)">
+                            <g transform="translate(1.000000, 7.000000)" id="Path">
+                                <g>
+                                    <line x1="24.4927" y1="26.698" x2="0.4067" y2="20.857" stroke="#000000" stroke-width="1.0308"></line>
+                                    <line x1="71.425" y1="0.529" x2="24.1094" y2="27.072" stroke="#000000" stroke-width="1.0308"></line>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
                 <line x1="151.8955" y1="148.346" x2="125.4854" y2="101.685" id="Path" stroke="#000000" stroke-width="1.0308"></line>
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#FFCA4B" fill-rule="nonzero" points="122.5624 21.947 122.3613 21.8945 122.1801 21.9962 75.3129 48.2881 74.8634 48.5403 75.1156 48.9898 101.4074 95.857 101.5171 96.052 101.7349 96.105 125.3783 101.866 125.5755 101.914 125.7525 101.815 172.37 75.664 172.819 75.412 172.567 74.962 146.4079 28.3315 146.3007 28.1403 146.0885 28.085"></polygon>
                 <g id="Clipped" transform="translate(74.000000, 21.000000)">
-                    <mask id="mask-52" fill="white">
-                        <use xlink:href="#path-51"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <g id="Group" mask="url(#mask-52)" stroke="#000000" stroke-width="1.0308">
-                        <g transform="translate(1.000000, 7.000000)" id="Path">
-                            <line x1="24.2002" y1="26.8313" x2="0.1143" y2="20.9902"></line>
-                            <line x1="71.1325" y1="0.6614" x2="23.8174" y2="27.2046"></line>
+                    <g id="Group-Clipped">
+                        <mask id="mask-52" fill="white">
+                            <use xlink:href="#path-51"></use>
+                        </mask>
+                        <g id="path-51"></g>
+                        <g id="Group" mask="url(#mask-52)">
+                            <g transform="translate(1.000000, 7.000000)" id="Path">
+                                <g>
+                                    <line x1="24.2002" y1="26.8313" x2="0.1143" y2="20.9902" stroke="#000000" stroke-width="1.0308"></line>
+                                    <line x1="71.1325" y1="0.6614" x2="23.8174" y2="27.2046" stroke="#000000" stroke-width="1.0308"></line>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
                 <line x1="125.6035" y1="101.479" x2="99.1934" y2="54.8179" id="Path" stroke="#000000" stroke-width="1.0308"></line>
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#FFCA4B" fill-rule="nonzero" points="75.6952 48.239 75.4941 48.1865 75.3129 48.2882 28.4457 74.58 27.9962 74.832 28.2484 75.282 54.540228 122.149 54.649909 122.344 54.867718 122.397 78.5112 128.158 78.7083 128.206 78.8853 128.107 125.5026 101.956 125.9521 101.704 125.6999 101.254 99.5407 54.6235 99.4335 54.4323 99.2214 54.377"></polygon>
                 <g id="Clipped" transform="translate(27.000000, 47.000000)">
-                    <mask id="mask-54" fill="white">
-                        <use xlink:href="#path-53"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <line x1="72.2653" y1="7.9537" x2="24.9502" y2="34.497" id="Path" stroke="#000000" stroke-width="1.0308" mask="url(#mask-54)"></line>
+                    <g id="Path-Clipped">
+                        <mask id="mask-54" fill="white">
+                            <use xlink:href="#path-53"></use>
+                        </mask>
+                        <g id="path-53"></g>
+                        <line x1="72.2653" y1="7.9537" x2="24.9502" y2="34.497" id="Path" stroke="#000000" stroke-width="1.0308" mask="url(#mask-54)"></line>
+                    </g>
                 </g>
                 <line x1="78.7363" y1="127.771" x2="52.3262" y2="81.11" id="Path" stroke="#000000" stroke-width="1.0308"></line>
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#FFCA4B" fill-rule="nonzero" points="49.4032 1.3718 49.20214 1.3193 49.02093 1.421 2.1537 27.7129 1.7042 27.9651 1.9564 28.4146 28.2482 75.282 28.3579 75.477 28.5757 75.53 52.21916 81.291 52.41634 81.339 52.59334 81.24 99.2106 55.0886 99.6601 54.8364 99.4079 54.3869 73.2488 7.7563 73.1415 7.5651 72.9294 7.5098"></polygon>
                 <g id="Clipped">
-                    <mask id="mask-56" fill="white">
-                        <use xlink:href="#path-55"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <line x1="72.9733" y1="8.0865" x2="25.6582" y2="34.6296" id="Path" stroke="#000000" stroke-width="1.0308" mask="url(#mask-56)"></line>
+                    <g id="Path-Clipped">
+                        <mask id="mask-56" fill="white">
+                            <use xlink:href="#path-55"></use>
+                        </mask>
+                        <g id="path-55"></g>
+                        <line x1="72.9733" y1="8.0865" x2="25.6582" y2="34.6296" id="Path" stroke="#000000" stroke-width="1.0308" mask="url(#mask-56)"></line>
+                    </g>
                 </g>
             </g>
             <g id="Group-151" transform="translate(948.000000, 0.000000)">
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#66E7D1" fill-rule="nonzero" points="77.5283 72.6501 77.5245 72.4423 77.3777 72.2953 39.4063 34.2694 39.0421 33.9047 38.6774 34.2688 0.6515 72.2401 0.4928 72.3985 0.5006 72.6226 1.3385 96.9433 1.3455 97.1461 1.4889 97.2898 39.2574 135.113 39.6216 135.478 39.9863 135.114 77.8203 97.3338 77.9755 97.1789 77.9715 96.9597"></polygon>
                 <g id="Clipped" transform="translate(1.000000, 33.000000)">
-                    <mask id="mask-58" fill="white">
-                        <use xlink:href="#path-57"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <g id="Group" mask="url(#mask-58)" stroke="#000000" stroke-width="1.0308">
-                        <g transform="translate(37.000000, 1.000000)" id="Path">
-                            <line x1="1.557" y1="25.0363" x2="0.6768" y2="0.2678"></line>
-                            <line x1="39.4285" y1="63.1577" x2="1.0942" y2="24.7683"></line>
+                    <g id="Group-Clipped">
+                        <mask id="mask-58" fill="white">
+                            <use xlink:href="#path-57"></use>
+                        </mask>
+                        <g id="path-57"></g>
+                        <g id="Group" mask="url(#mask-58)">
+                            <g transform="translate(37.000000, 1.000000)" id="Path">
+                                <g>
+                                    <line x1="1.557" y1="25.0363" x2="0.6768" y2="0.2678" stroke="#000000" stroke-width="1.0308"></line>
+                                    <line x1="39.4285" y1="63.1577" x2="1.0942" y2="24.7683" stroke="#000000" stroke-width="1.0308"></line>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
                 <line x1="1.772" y1="97.0557" x2="39.7118" y2="59.1703" id="Path" stroke="#000000" stroke-width="1.0308"></line>
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#66E7D1" fill-rule="nonzero" points="186.761 115.979 186.757 115.771 186.611 115.624 148.639 77.5982 148.275 77.2335 147.91 77.5977 109.884 115.569 109.726 115.727 109.733 115.951 110.571 140.272 110.578 140.475 110.722 140.619 148.49 178.442 148.855 178.807 149.219 178.442 187.053 140.663 187.208 140.508 187.204 140.289"></polygon>
                 <g id="Clipped" transform="translate(110.000000, 76.000000)">
-                    <mask id="mask-60" fill="white">
-                        <use xlink:href="#path-59"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <g id="Group" mask="url(#mask-60)" stroke="#000000" stroke-width="1.0308">
-                        <g transform="translate(37.000000, 1.000000)" id="Path">
-                            <line x1="1.79" y1="25.365" x2="0.91" y2="0.5967"></line>
-                            <line x1="39.661" y1="63.487" x2="1.327" y2="25.097"></line>
+                    <g id="Group-Clipped">
+                        <mask id="mask-60" fill="white">
+                            <use xlink:href="#path-59"></use>
+                        </mask>
+                        <g id="path-59"></g>
+                        <g id="Group" mask="url(#mask-60)">
+                            <g transform="translate(37.000000, 1.000000)" id="Path">
+                                <g>
+                                    <line x1="1.79" y1="25.365" x2="0.91" y2="0.5967" stroke="#000000" stroke-width="1.0308"></line>
+                                    <line x1="39.661" y1="63.487" x2="1.327" y2="25.097" stroke="#000000" stroke-width="1.0308"></line>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
                 <line x1="111.005" y1="140.385" x2="148.801" y2="102.355" id="Path" stroke="#000000" stroke-width="1.0308"></line>
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#66E7D1" fill-rule="nonzero" points="148.79 77.9531 148.786 77.7453 148.639 77.5983 110.668 39.5723 110.304 39.2076 109.939 39.5718 71.9132 77.5431 71.7546 77.7015 71.7623 77.9256 72.6002 102.246 72.6072 102.449 72.7506 102.593 110.519 140.416 110.883 140.781 111.248 140.416 149.082 102.637 149.237 102.482 149.233 102.263"></polygon>
                 <g id="Clipped" transform="translate(72.000000, 38.000000)">
-                    <mask id="mask-62" fill="white">
-                        <use xlink:href="#path-61"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <g id="Group" mask="url(#mask-62)" stroke="#000000" stroke-width="1.0308">
-                        <g transform="translate(37.000000, 1.000000)" id="Path">
-                            <line x1="1.819" y1="25.3395" x2="0.938" y2="0.571"></line>
-                            <line x1="39.69" y1="63.461" x2="1.356" y2="25.0715"></line>
+                    <g id="Group-Clipped">
+                        <mask id="mask-62" fill="white">
+                            <use xlink:href="#path-61"></use>
+                        </mask>
+                        <g id="path-61"></g>
+                        <g id="Group" mask="url(#mask-62)">
+                            <g transform="translate(37.000000, 1.000000)" id="Path">
+                                <g>
+                                    <line x1="1.819" y1="25.3395" x2="0.938" y2="0.571" stroke="#000000" stroke-width="1.0308"></line>
+                                    <line x1="39.69" y1="63.461" x2="1.356" y2="25.0715" stroke="#000000" stroke-width="1.0308"></line>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
                 <line x1="73.0337" y1="102.359" x2="110.829" y2="64.329" id="Path" stroke="#000000" stroke-width="1.0308"></line>
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#66E7D1" fill-rule="nonzero" points="110.816 39.9245 110.812 39.7167 110.665 39.5697 72.6939 1.54377 72.3297 1.17907 71.965 1.54325 33.9391 39.5145 33.7804 39.6729 33.7882 39.897 34.6261 64.2177 34.6331 64.4206 34.7765 64.5642 72.545 102.387 72.9092 102.752 73.2739 102.388 111.108 64.6082 111.263 64.4533 111.259 64.2341"></polygon>
                 <g id="Clipped" transform="translate(34.000000, 0.000000)">
-                    <mask id="mask-64" fill="white">
-                        <use xlink:href="#path-63"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <g id="Group" mask="url(#mask-64)" stroke="#000000" stroke-width="1.0308">
-                        <g transform="translate(37.000000, 1.000000)" id="Path">
-                            <line x1="1.8446" y1="25.3107" x2="0.9644" y2="0.54224"></line>
-                            <line x1="39.716" y1="63.4321" x2="1.3818" y2="25.0427"></line>
+                    <g id="Group-Clipped">
+                        <mask id="mask-64" fill="white">
+                            <use xlink:href="#path-63"></use>
+                        </mask>
+                        <g id="path-63"></g>
+                        <g id="Group" mask="url(#mask-64)">
+                            <g transform="translate(37.000000, 1.000000)" id="Path">
+                                <g>
+                                    <line x1="1.8446" y1="25.3107" x2="0.9644" y2="0.54224" stroke="#000000" stroke-width="1.0308"></line>
+                                    <line x1="39.716" y1="63.4321" x2="1.3818" y2="25.0427" stroke="#000000" stroke-width="1.0308"></line>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
@@ -395,56 +471,72 @@
             <g id="Group-149" transform="translate(1367.000000, 268.000000)">
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#E6F16A" fill-rule="nonzero" points="149.379 67.336 149.177 67.286 148.997 67.39 102.471 94.28 102.024 94.538 102.282 94.984 129.172 141.511 129.285 141.705 129.503 141.755 153.218 147.212 153.416 147.258 153.592 147.156 199.87 120.41 200.316 120.152 200.059 119.706 173.304 73.414 173.194 73.224 172.981 73.172"></polygon>
                 <g id="Clipped" transform="translate(101.000000, 66.000000)">
-                    <mask id="mask-66" fill="white">
-                        <use xlink:href="#path-65"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <g id="Group" mask="url(#mask-66)" stroke="#000000" stroke-width="1.0308">
-                        <g transform="translate(1.000000, 7.000000)" id="Path">
-                            <line x1="24.44" y1="27.517" x2="0.281" y2="21.985"></line>
-                            <line x1="71.033" y1="0.747" x2="24.062" y2="27.895"></line>
+                    <g id="Group-Clipped">
+                        <mask id="mask-66" fill="white">
+                            <use xlink:href="#path-65"></use>
+                        </mask>
+                        <g id="path-65"></g>
+                        <g id="Group" mask="url(#mask-66)">
+                            <g transform="translate(1.000000, 7.000000)" id="Path">
+                                <g>
+                                    <line x1="24.44" y1="27.517" x2="0.281" y2="21.985" stroke="#000000" stroke-width="1.0308"></line>
+                                    <line x1="71.033" y1="0.747" x2="24.062" y2="27.895" stroke="#000000" stroke-width="1.0308"></line>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
                 <line x1="153.439" y1="146.822" x2="126.433" y2="100.503" id="Path" stroke="#000000" stroke-width="1.0308"></line>
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#E6F16A" fill-rule="nonzero" points="122.488 20.8092 122.287 20.7593 122.107 20.8633 75.5804 47.7537 75.1341 48.0116 75.392 48.4578 102.282 94.984 102.394 95.178 102.613 95.229 126.328 100.686 126.526 100.732 126.702 100.63 172.98 73.883 173.426 73.625 173.168 73.179 146.414 26.8877 146.304 26.6978 146.091 26.6452"></polygon>
                 <g id="Clipped" transform="translate(74.000000, 20.000000)">
-                    <mask id="mask-68" fill="white">
-                        <use xlink:href="#path-67"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <g id="Group" mask="url(#mask-68)" stroke="#000000" stroke-width="1.0308">
-                        <g transform="translate(1.000000, 7.000000)" id="Path">
-                            <line x1="24.5495" y1="26.9901" x2="0.3906" y2="21.4583"></line>
-                            <line x1="71.142" y1="0.2211" x2="24.1714" y2="27.3684"></line>
+                    <g id="Group-Clipped">
+                        <mask id="mask-68" fill="white">
+                            <use xlink:href="#path-67"></use>
+                        </mask>
+                        <g id="path-67"></g>
+                        <g id="Group" mask="url(#mask-68)">
+                            <g transform="translate(1.000000, 7.000000)" id="Path">
+                                <g>
+                                    <line x1="24.5495" y1="26.9901" x2="0.3906" y2="21.4583" stroke="#000000" stroke-width="1.0308"></line>
+                                    <line x1="71.142" y1="0.2211" x2="24.1714" y2="27.3684" stroke="#000000" stroke-width="1.0308"></line>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
                 <line x1="126.549" y1="100.296" x2="99.5429" y2="53.9769" id="Path" stroke="#000000" stroke-width="1.0308"></line>
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#E6F16A" fill-rule="nonzero" points="75.962 47.6993 75.7603 47.6495 75.5804 47.7534 29.054 74.644 28.6078 74.902 28.8657 75.348 55.7559 121.874 55.8681 122.068 56.0866 122.119 79.8019 127.576 79.9997 127.622 80.1754 127.52 126.454 100.774 126.9 100.516 126.642 100.069 99.8874 53.7778 99.7777 53.588 99.5649 53.5354"></polygon>
                 <g id="Clipped" transform="translate(27.000000, 47.000000)">
-                    <mask id="mask-70" fill="white">
-                        <use xlink:href="#path-69"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <g id="Group" mask="url(#mask-70)" stroke="#000000" stroke-width="1.0308">
-                        <g transform="translate(1.000000, 7.000000)" id="Path">
-                            <line x1="25.0231" y1="26.881" x2="0.8643" y2="21.349"></line>
-                            <line x1="71.6161" y1="0.1115" x2="24.645" y2="27.259"></line>
+                    <g id="Group-Clipped">
+                        <mask id="mask-70" fill="white">
+                            <use xlink:href="#path-69"></use>
+                        </mask>
+                        <g id="path-69"></g>
+                        <g id="Group" mask="url(#mask-70)">
+                            <g transform="translate(1.000000, 7.000000)" id="Path">
+                                <g>
+                                    <line x1="25.0231" y1="26.881" x2="0.8643" y2="21.349" stroke="#000000" stroke-width="1.0308"></line>
+                                    <line x1="71.6161" y1="0.1115" x2="24.645" y2="27.259" stroke="#000000" stroke-width="1.0308"></line>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>
                 <line x1="80.0225" y1="127.186" x2="53.0165" y2="80.867" id="Path" stroke="#000000" stroke-width="1.0308"></line>
                 <polygon id="Path" stroke="#000000" stroke-width="1.0308" fill="#E6F16A" fill-rule="nonzero" points="49.0714 1.1735 48.8697 1.1236 48.6898 1.2276 2.16337 28.118 1.71714 28.3759 1.97504 28.8221 28.8653 75.348 28.9775 75.543 29.196 75.593 52.9113 81.05 53.1091 81.096 53.2848 80.994 99.5631 54.2476 100.009 53.9897 99.7514 53.5435 72.9968 7.2519 72.8871 7.0621 72.6743 7.0095"></polygon>
                 <g id="Clipped">
-                    <mask id="mask-72" fill="white">
-                        <use xlink:href="#path-71"></use>
-                    </mask>
-                    <g id="Path"></g>
-                    <g id="Group" mask="url(#mask-72)" stroke="#000000" stroke-width="1.0308">
-                        <g transform="translate(1.000000, 7.000000)" id="Path">
-                            <line x1="25.133" y1="27.3544" x2="0.97412" y2="21.8225"></line>
-                            <line x1="71.7255" y1="0.5853" x2="24.7544" y2="27.7327"></line>
+                    <g id="Group-Clipped">
+                        <mask id="mask-72" fill="white">
+                            <use xlink:href="#path-71"></use>
+                        </mask>
+                        <g id="path-71"></g>
+                        <g id="Group" mask="url(#mask-72)">
+                            <g transform="translate(1.000000, 7.000000)" id="Path">
+                                <g>
+                                    <line x1="25.133" y1="27.3544" x2="0.97412" y2="21.8225" stroke="#000000" stroke-width="1.0308"></line>
+                                    <line x1="71.7255" y1="0.5853" x2="24.7544" y2="27.7327" stroke="#000000" stroke-width="1.0308"></line>
+                                </g>
+                            </g>
                         </g>
                     </g>
                 </g>

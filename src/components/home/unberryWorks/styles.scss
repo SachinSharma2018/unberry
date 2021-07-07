@@ -23,6 +23,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+
+
+    @include desktop-lg {
+        bottom: 20%;
+    }
   }
 
   .title2 {

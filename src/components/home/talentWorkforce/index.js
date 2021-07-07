@@ -11,7 +11,7 @@ function TalentWorkforce() {
     <section className="talent-workforce-style">
       <div className="container">
         <div className="row">
-          <div className="col-sm-4">
+          <div className="col-sm-5">
             <h4 className="title2">
               Find <span className="theme-purple">The Perfect Talent </span> And
               Transform your Hiring.
@@ -19,7 +19,7 @@ function TalentWorkforce() {
             {/* <img alt="" src={shape0} className="img1" /> */}
           </div>
 
-          <div className="col-sm-8">
+          <div className="col-sm-7">
             <div className="gird-section">
               <div className="card-box">
                 <img alt="" src={shape1} />

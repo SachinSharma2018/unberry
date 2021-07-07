@@ -48,7 +48,7 @@ function RapidlyEvolving(props) {
       var rect = elmnt.getBoundingClientRect();
       var elemTop = rect?.top;
 
-      if (elemTop < -150 && !offset) {
+      if (elemTop < -50 && !offset) {
         setOffset(true);
       }
     };

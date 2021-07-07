@@ -4,11 +4,15 @@
 
 .rapidly-evolving-style {
   // background-color: $white;
-  padding: 200px 0 200px;
+  padding: 300px 0 200px;
   position: relative;
 
   @include mobile {
     padding: 200px 0 100px;
+  }
+
+  @include desktop-lg {
+    padding: 400px 0 200px;
   }
 
   .img-style {

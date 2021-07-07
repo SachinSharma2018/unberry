@@ -21,13 +21,18 @@
     margin-bottom: 37px;
     text-align: left;
     max-width: 90%;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 40px;
     color: $white;
+    font-size: 40px;
 
     @include mobile {
+      font-size: 30px;
       max-width: 100%;
-      font-size: 1.7rem;
+      }
+
+    span {
+      font-weight: 700;
     }
   }
 

@@ -13,8 +13,8 @@ function TalentWorkforce() {
         <div className="row">
           <div className="col-sm-5">
             <h4 className="title2">
-              Find <span className="theme-purple">The Perfect Talent </span> And
-              Transform your Hiring.
+              Find <span className="theme-purple">The <br/> Perfect Talent </span> <br/> And
+              Transform <br className="d-none d-sm-block"/> your Hiring.
             </h4>
             {/* <img alt="" src={shape0} className="img1" /> */}
           </div>

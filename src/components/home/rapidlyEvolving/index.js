@@ -164,7 +164,7 @@ function RapidlyEvolving(props) {
             </div>
             <div className="col-sm-6 order-mobile2">
               <div className="videoAnimation">
-                <video className="lazy" playsInline autoPlay muted loop preload="none" key={videoSource} id="rapidlyVideo">
+                <video playsInline autoPlay muted loop key={videoSource} id="rapidlyVideo">
                   <source src={videoSource} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>

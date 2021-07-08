@@ -1,11 +1,12 @@
+import { Link } from "react-scroll";
 import Lottie from "react-lottie";
 import animationData from "../../../assets/json/heroAnimation";
-
 import downArrow from "../../../assets/images/down-arrow.svg";
 
 import "./styles.scss";
 
 function HeroSection(props) {
+  const media = window.matchMedia(`(min-width: 768px)`);
   return (
     <section className="hero-section">
       <div className="container">
@@ -21,10 +22,17 @@ function HeroSection(props) {
               retain and develop talent.
             </p>
 
-            <a href="#hiringLandscape" className="arrow-icon-btn">
+            <Link
+              activeClass="active"
+              className="arrow-icon-btn"
+              spy={true}
+              offset={media.matches === true ? 230 : 150}
+              isDynamic={true}
+              to="hiringLandscape"
+            >
               <span> How it works</span>
               <img alt="" src={downArrow} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

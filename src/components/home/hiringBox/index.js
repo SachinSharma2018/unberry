@@ -34,7 +34,7 @@ function HiringBox() {
           of hiring.
         </p>
         <div className="newsletter-section">
-          <InputPrimary placeholder="hereisme@myofficalmail.com" 
+          <InputPrimary placeholder="Enter email address" 
           icon={valid ? checked : null}
             onChange={(e) => {
               validateEmail(e.target.value)

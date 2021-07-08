@@ -1,5 +1,4 @@
 // Custom Components
-import { useEffect, useRef } from "react";
 import FooterPrimary from "../../components/footerPrimary";
 import EnterUnberry from "../../components/home/enterUnberry";
 import HeroSection from "../../components/home/heroSection";

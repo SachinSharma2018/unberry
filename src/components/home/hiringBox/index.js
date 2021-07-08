@@ -46,7 +46,7 @@ function HiringBox() {
             value={email} />
           <button className="started-btn" onClick={() => {
             emailSubmit(email);
-          }}>Get started</button>
+          }}>Book a demo</button>
         </div>
       </div>
       <div className="shape1" />

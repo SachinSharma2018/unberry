@@ -74,7 +74,7 @@ function EnterUnberry() {
             </div>
             <div className="col-sm-6">
               <div className="video-banner">
-                <video playsInline autoPlay muted loop id="team-video">
+                <video className="lazy" playsInline autoPlay muted loop preload="none" id="team-video">
                   <source src={videoSource} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>

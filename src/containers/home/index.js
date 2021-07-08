@@ -1,5 +1,5 @@
 // Custom Components
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import FooterPrimary from "../../components/footerPrimary";
 import EnterUnberry from "../../components/home/enterUnberry";
 import HeroSection from "../../components/home/heroSection";
@@ -15,6 +15,34 @@ import TopHeader from "../../components/topHeader";
 import "./styles.scss";
 
 function Home() {
+  useEffect(() => {
+    document.addEventListener("DOMContentLoaded", function () {
+      var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));
+
+      if ("IntersectionObserver" in window) {
+        var lazyVideoObserver = new IntersectionObserver(function (entries, observer) {
+          entries.forEach(function (video) {
+            if (video.isIntersecting) {
+              for (var source in video.target.children) {
+                var videoSource = video.target.children[source];
+                if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
+                  videoSource.src = videoSource.dataset.src;
+                }
+              }
+
+              video.target.load();
+              video.target.classList.remove("lazy");
+              lazyVideoObserver.unobserve(video.target);
+            }
+          });
+        });
+
+        lazyVideos.forEach(function (lazyVideo) {
+          lazyVideoObserver.observe(lazyVideo);
+        });
+      }
+    });
+  }, [])
 
   return (
     <div className="home-page-container">

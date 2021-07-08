@@ -10,6 +10,7 @@ import Lottie from "react-lottie";
 import animationShape2 from "../../../assets/json/data-science.json";
 import animationShape3 from "../../../assets/json/psychology.json";
 import videoSource from "../../../assets/videos/game-based.mp4";
+import gameBasesPoster from "../../../assets/videos/game-based.png";
 
 import "./styles.scss";
 
@@ -74,7 +75,7 @@ function EnterUnberry() {
             </div>
             <div className="col-sm-6">
               <div className="video-banner">
-                <video playsInline autoPlay muted loop id="team-video">
+                <video playsInline autoPlay muted loop id="team-video" poster={gameBasesPoster}>
                   <source src={videoSource} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>

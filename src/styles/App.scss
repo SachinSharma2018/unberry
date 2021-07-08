@@ -17,10 +17,6 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 html,
 body {
   height: 100%;
@@ -38,6 +34,7 @@ body {
 
 .app-container {
   position: relative;
+  overflow: hidden;
 }
 
 // Typography Style

@@ -21,7 +21,7 @@ function HeroSection(props) {
               retain and develop talent.
             </p>
 
-            <a href="#myDIV" className="arrow-icon-btn">
+            <a href="#hiringLandscape" className="arrow-icon-btn">
               <span> How it works</span>
               <img alt="" src={downArrow} />
             </a>

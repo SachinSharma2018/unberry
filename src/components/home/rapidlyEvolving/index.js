@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import VerticalProgress from "../../verticalProgress";
 
 // Video Files
@@ -44,7 +44,7 @@ function RapidlyEvolving(props) {
   // Step One
   useEffect(() => {
     window.onscroll = () => {
-      var elmnt = document.getElementById("myDIV");
+      var elmnt = document.getElementById("hiringLandscape");
       var rect = elmnt.getBoundingClientRect();
       var elemTop = rect?.top;
 
@@ -94,7 +94,7 @@ function RapidlyEvolving(props) {
     vid.className = "video-banner loading";
     document
       .getElementById("team-video")
-      .addEventListener("loadstart", () => {});
+      .addEventListener("loadstart", () => { });
     document
       .getElementById("team-video")
       .addEventListener("canplaythrough", () => {
@@ -107,7 +107,7 @@ function RapidlyEvolving(props) {
   // }​​
 
   return (
-    <section className="rapidly-evolving-style" id="myDIV">
+    <section className="rapidly-evolving-style" id="hiringLandscape">
       <div className="content-section" id="triggerSection">
         <div className="container">
           <div className="row heading-sec">

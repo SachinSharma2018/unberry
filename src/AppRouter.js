@@ -3,7 +3,7 @@ import Home from "./containers/home";
 
 function AppRouter() {
   return (
-    <div style={{}}>
+    <div className="main-section">
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home}></Route>

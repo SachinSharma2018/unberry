@@ -29,7 +29,7 @@ function TalentWorkforce() {
                   </h4>
                   <p className="description">
                     Improve the efficiency in Hiring. Reduce time to hire by{" "}
-                    <span className="theme-purple">50-60%</span> nd cost upwards
+                    <span className="theme-purple">50-60%</span> and cost upwards
                     of <span className="theme-purple">25%</span>
                   </p>
                 </div>
